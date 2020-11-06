@@ -1,668 +1,668 @@
-shoe_name,goat_price,stockx_low_price,stockx_high_price,low_profit,high_profit
-Air Jordan 12 Retro 'Dark Concord',230,234,287,4,57
-Yeezy Boost 350 V2 'Natural',260,305,325,45,65
-Yeezy Boost 350 V2 'Carbon',256,253,305,-3,49
-Paris Saint-Germain x Air Jordan 4 Retro 'Bord...,260,242,275,-18,15
-Off-White x Air Rubber Dunk 'Green Strike',305,312,322,7,17
-Air Jordan 1 Retro High 'Tokyo Bio Hack',210,208,237,-2,27
-Yeezy Boost 350 V2 'Israfil',260,281,438,21,178
-Air Jordan 1 Retro High OG 'Crimson Tint',120,102,126,-18,6
-Yeezy Boost 350 V2 'Zyon',273,364,415,91,142
-Air Jordan 3 Retro 'Varsity Royal',227,342,357,115,130
-Yeezy 700 V3 'Arzareth',389,423,502,34,113
-Air Jordan 11 Retro 'Space Jam' 2016,225,208,218,-17,-7
-Yeezy Boost 350 V2 'Yecheil Non-Reflective',340,355,363,15,23
-Yeezy Boost 350 V2 'Yecheil Reflective',599,588,598,-11,-1
-Justin Bieber x Classic Clog 'Drew',70,73,177,3,107
-Air Jordan 1 Retro High OG 'Gym Red',110,75,130,-35,20
-Yeezy Slides 'Bone',215,326,367,111,152
-Air Jordan 3 Retro 'UNC',299,316,338,17,39
-Air Jordan 3 Retro SE 'Unite',169,153,187,-16,18
-Yeezy Boost 350 V2 'Clay',283,332,536,49,253
-Air Jordan 11 Retro Low 'Concord-Bred',210,202,207,-8,-3
-Air Jordan 1 Retro High co.JP 'Midnight Navy' 2020,314,350,356,36,42
-Yeezy Boost 700 'Inertia',375,368,415,-7,40
-Yeezy Boost 350 V2 'Desert Sage',294,378,422,84,128
-Air VaporMax Flyknit 3 'Triple Black',139,136,183,-3,44
-Air Jordan 1 High Zoom 'Racer Blue',263,416,461,153,198
-Air Jordan 4 Retro SE 'Neon 95',214,195,201,-19,-13
-Yeezy Boost 350 V2 'Bred',470,461,478,-9,8
-Yeezy Boost 350 V2 'Sesame',384,407,479,23,95
-Air Jordan 1 Low 'Reverse Bred',105,150,266,45,161
-Air Jordan 5 Retro 'Fire Red' 2020,205,176,205,-29,0
+id,weight,value,stockx_low_price,low_profit,high_profit
+Air Jordan 12 Retro 'Dark Concord',230,287,234,4,57
+Yeezy Boost 350 V2 'Natural',260,325,305,45,65
+Yeezy Boost 350 V2 'Carbon',256,305,253,-3,49
+Paris Saint-Germain x Air Jordan 4 Retro 'Bord...,260,275,242,-18,15
+Off-White x Air Rubber Dunk 'Green Strike',305,322,312,7,17
+Air Jordan 1 Retro High 'Tokyo Bio Hack',210,237,208,-2,27
+Yeezy Boost 350 V2 'Israfil',260,438,281,21,178
+Air Jordan 1 Retro High OG 'Crimson Tint',120,126,102,-18,6
+Yeezy Boost 350 V2 'Zyon',273,415,364,91,142
+Air Jordan 3 Retro 'Varsity Royal',227,357,342,115,130
+Yeezy 700 V3 'Arzareth',389,502,423,34,113
+Air Jordan 11 Retro 'Space Jam' 2016,225,218,208,-17,-7
+Yeezy Boost 350 V2 'Yecheil Non-Reflective',340,363,355,15,23
+Yeezy Boost 350 V2 'Yecheil Reflective',599,598,588,-11,-1
+Justin Bieber x Classic Clog 'Drew',70,177,73,3,107
+Air Jordan 1 Retro High OG 'Gym Red',110,130,75,-35,20
+Yeezy Slides 'Bone',215,367,326,111,152
+Air Jordan 3 Retro 'UNC',299,338,316,17,39
+Air Jordan 3 Retro SE 'Unite',169,187,153,-16,18
+Yeezy Boost 350 V2 'Clay',283,536,332,49,253
+Air Jordan 11 Retro Low 'Concord-Bred',210,207,202,-8,-3
+Air Jordan 1 Retro High co.JP 'Midnight Navy' 2020,314,356,350,36,42
+Yeezy Boost 700 'Inertia',375,415,368,-7,40
+Yeezy Boost 350 V2 'Desert Sage',294,422,378,84,128
+Air VaporMax Flyknit 3 'Triple Black',139,183,136,-3,44
+Air Jordan 1 High Zoom 'Racer Blue',263,461,416,153,198
+Air Jordan 4 Retro SE 'Neon 95',214,201,195,-19,-13
+Yeezy Boost 350 V2 'Bred',470,478,461,-9,8
+Yeezy Boost 350 V2 'Sesame',384,479,407,23,95
+Air Jordan 1 Low 'Reverse Bred',105,266,150,45,161
+Air Jordan 5 Retro 'Fire Red' 2020,205,205,176,-29,0
 Air Force 1 Low 'Orange Skeleton',215,180,180,-35,-35
-Air Jordan 13 Retro 'Lucky Green',188,152,214,-36,26
-Yeezy Boost 350 V2 'Black Reflective',800,800,818,0,18
-Air Max 97 'Triple White',140,224,350,84,210
-Air Jordan 14 Retro 'Hyper Royal',222,198,233,-24,11
-Air Jordan 1 Low 'Game Royal',110,196,226,86,116
-Air Jordan 4 Retro 'Red Metallic',305,288,473,-17,168
-Yeezy 500 'Stone',230,242,266,12,36
-Air Jordan 4 Retro 'Pure Money' 2017,350,321,402,-29,52
-Air Jordan 12 Retro 'Flu Game' 2016,280,266,275,-14,-5
-Slam Jam x Dunk High 'Clear Black',420,424,440,4,20
-Comme des Garçons x Chuck Taylor All Star Hi '...,140,149,150,9,10
-Travis Scott x Air Force 1 'Sail',899,946,1159,47,260
-Yeezy Boost 350 V2 'Oreo',760,786,803,26,43
-Air Jordan 1 Mid GS 'White Light Arctic Pink',137,153,222,16,85
-Yeezy Boost 350 V2 'Lundmark Non-Reflective',290,253,360,-37,70
-Yeezy Boost 700 MNVN 'Triple Black',320,309,315,-11,-5
-Off-White x Blazer Mid 'All Hallows Eve',720,720,774,0,54
-Air Jordan 11 Retro 'Legend Blue' 2014,379,357,393,-22,14
-Yeezy Quantum 'Quantum',260,313,444,53,184
-Air Jordan 4 Retro GS 'Purple Metallic',245,266,281,21,36
-Air Jordan 14 Retro 'Gym Red',239,214,338,-25,99
-Air Jordan 1 Retro High GS 'Tokyo Bio Hack',220,202,317,-18,97
-Air Jordan 11 Retro Low 'UNC',270,359,388,89,118
-Yeezy 500 High 'Slate',174,190,192,16,18
-Air Jordan 1 Low 'White Camo',116,114,374,-2,258
-Sacai x LDWaffle 'White Nylon',374,392,395,18,21
-Yeezy Season 7 Desert Boot 'Cinder',222,188,190,-34,-32
-Yeezy Boost 350 V2 'Yeshaya Non-Reflective',320,329,502,9,182
-Off-White x Dunk Low 'University Gold',474,473,496,-1,22
-Air Jordan 1 Low GS 'Gym Red',202,218,286,16,84
-Sacai x LDWaffle 'Black Nylon',230,308,446,78,216
-Ultra 4D 'Triple Black',175,190,200,15,25
-Air Jordan 35 'Center Of Gravity',170,186,222,16,52
-Air Max 90 'Día de Muertos',298,328,393,30,95
-Dunk Low SP 'Champ Colors',185,406,482,221,297
+Air Jordan 13 Retro 'Lucky Green',188,214,152,-36,26
+Yeezy Boost 350 V2 'Black Reflective',800,818,800,0,18
+Air Max 97 'Triple White',140,350,224,84,210
+Air Jordan 14 Retro 'Hyper Royal',222,233,198,-24,11
+Air Jordan 1 Low 'Game Royal',110,226,196,86,116
+Air Jordan 4 Retro 'Red Metallic',305,473,288,-17,168
+Yeezy 500 'Stone',230,266,242,12,36
+Air Jordan 4 Retro 'Pure Money' 2017,350,402,321,-29,52
+Air Jordan 12 Retro 'Flu Game' 2016,280,275,266,-14,-5
+Slam Jam x Dunk High 'Clear Black',420,440,424,4,20
+Comme des Garçons x Chuck Taylor All Star Hi '...,140,150,149,9,10
+Travis Scott x Air Force 1 'Sail',899,1159,946,47,260
+Yeezy Boost 350 V2 'Oreo',760,803,786,26,43
+Air Jordan 1 Mid GS 'White Light Arctic Pink',137,222,153,16,85
+Yeezy Boost 350 V2 'Lundmark Non-Reflective',290,360,253,-37,70
+Yeezy Boost 700 MNVN 'Triple Black',320,315,309,-11,-5
+Off-White x Blazer Mid 'All Hallows Eve',720,774,720,0,54
+Air Jordan 11 Retro 'Legend Blue' 2014,379,393,357,-22,14
+Yeezy Quantum 'Quantum',260,444,313,53,184
+Air Jordan 4 Retro GS 'Purple Metallic',245,281,266,21,36
+Air Jordan 14 Retro 'Gym Red',239,338,214,-25,99
+Air Jordan 1 Retro High GS 'Tokyo Bio Hack',220,317,202,-18,97
+Air Jordan 11 Retro Low 'UNC',270,388,359,89,118
+Yeezy 500 High 'Slate',174,192,190,16,18
+Air Jordan 1 Low 'White Camo',116,374,114,-2,258
+Sacai x LDWaffle 'White Nylon',374,395,392,18,21
+Yeezy Season 7 Desert Boot 'Cinder',222,190,188,-34,-32
+Yeezy Boost 350 V2 'Yeshaya Non-Reflective',320,502,329,9,182
+Off-White x Dunk Low 'University Gold',474,496,473,-1,22
+Air Jordan 1 Low GS 'Gym Red',202,286,218,16,84
+Sacai x LDWaffle 'Black Nylon',230,446,308,78,216
+Ultra 4D 'Triple Black',175,200,190,15,25
+Air Jordan 35 'Center Of Gravity',170,222,186,16,52
+Air Max 90 'Día de Muertos',298,393,328,30,95
+Dunk Low SP 'Champ Colors',185,482,406,221,297
 Air Raid OG 'Black Grey',130,104,104,-26,-26
-Air Jordan 4 Retro 'Toro Bravo',540,533,587,-7,47
-Air Jordan 1 Low 'Shattered Backboard',195,222,255,27,60
-Yeezy Boost 700 Kids 'Wave Runner',270,257,264,-13,-6
-Air Jordan 3 Retro 'Hall of Fame',299,283,300,-16,1
-Air Jordan 13 Retro 'Chicago' 2017,150,140,209,-10,59
-Air Jordan 1 Mid GS 'Light Smoke Grey',150,170,362,20,212
-UltraBoost 4.0 'Triple White',115,203,345,88,230
-Yeezy Boost 350 V2 'Sulfur',265,279,311,14,46
-Off-White x Rubber Dunk PS 'Green Strike',104,87,138,-17,34
-Air Jordan 4 Retro 'Cement' 2012,459,478,628,19,169
-Air Jordan 1 Mid 'Shattered Backboard',113,86,101,-27,-12
-Yeezy 500 'Salt',290,262,268,-28,-22
-Air Jordan 12 Retro 'Taxi' 2013,338,305,322,-33,-16
-Air Jordan 4 Retro 'FIBA',179,206,215,27,36
-Air Jordan 10 Retro 'Shadow' 2018,117,158,190,41,73
-Yeezy Desert Boot 'Rock',271,502,513,231,242
-Air Force 1 Low 'NY vs NY',90,64,87,-26,-3
-Air Max 90 'Infrared' 2020,150,124,125,-26,-25
-Air Jordan 4 Retro LS 'Legend Blue',140,143,144,3,4
-Grateful Dead x Chinatown Market x Clog 'Tie Dye',78,56,109,-22,31
-Air Jordan 11 Retro Low GS 'Concord-Bred',158,125,240,-33,82
-Dunk Low SB 'Blue Fury',190,178,210,-12,20
-Air Max CB 94 'Triple Black' 2020,222,242,329,20,107
-Old Skool 'Black White',55,47,54,-8,-1
-Air Max 270 'White',99,82,214,-17,115
-Air Jordan 8 Retro 'Aqua' 2015,300,479,547,179,247
-Air VaporMax Flyknit 3 'Oreo',129,128,140,-1,11
-Gucci Ace Embroidered 'Snake',650,672,725,22,75
-Dunk Low SB 'Night of Mischief',490,463,622,-27,132
-Air Jordan 1 Mid 'Noble Red',117,102,107,-15,-10
-Yeezy Boost 700 'Teal Blue',318,306,308,-12,-10
-Yeezy Slides 'Earth Brown',175,152,187,-23,12
-Air Jordan 11 Low Retro IE 'Black Cement',145,119,319,-26,174
-Air Jordan 13 Retro GS 'Lucky Green',120,206,212,86,92
-Air Jordan 1 Mid GS 'Black Racer Blue',119,88,188,-31,69
-Slam Jam x Dunk High 'White Platinum',295,321,384,26,89
-Air Jordan 11 Retro Low 'Cherry' 2016,364,334,414,-30,50
-Air Jordan 7 Retro 'Greater China',170,147,231,-23,61
-Yeezy Boost 350 V2 Kids 'Black Non-Reflective',365,355,516,-10,151
-Yeezy Boost 350 'Turtle Dove',1595,1582,1599,-13,4
-Yeezy Boost 380 'Mist Reflective',293,270,271,-23,-22
-Blazer Mid '77 Vintage 'Racer Blue',106,119,271,13,165
-Air Jordan 13 Retro 'He Got Game' 2018,300,324,520,24,220
-Air Jordan 3 Retro SE 'Animal Instinct 2.0',222,261,263,39,41
-Off-White x Air Max 97 'Menta',835,822,1009,-13,174
-Air Max 720 'Bubble Pack',94,78,128,-16,34
-Air Foamposite One 'Cracked Lava',119,116,251,-3,132
-Air Jordan 1 Low GS 'Pine Green',190,175,308,-15,118
-Air Jordan 6 Retro 'Washed Denim',137,131,317,-6,180
-Air Jordan 6 Retro 'Infrared' 2014,200,250,278,50,78
-Air Jordan 1 Mid GS 'Chicago',130,123,132,-7,2
-Yeezy Season 7 Desert Boot 'Oil',258,249,260,-9,2
-Air Jordan 4 Retro 'Motorsports Alternate',230,232,235,2,5
-Yeezy Boost 700 MNVN 'Phosphor',375,400,404,25,29
-Air Jordan 3 Retro PS 'Laser Orange',95,93,245,-2,150
-Air Foamposite One 'Black',280,244,342,-36,62
-Union LA x Air Jordan 4 Retro 'Off Noir',549,726,728,177,179
-Air Jordan 1 Retro High OG 'Dark Mocha',324,342,389,18,65
-Wmns Air Jordan 1 Retro High OG 'Lucky Green',230,227,373,-3,143
-Air Jordan 1 Retro High OG 'Royal Toe',220,214,307,-6,87
-Air Jordan 1 Retro High OG 'Obsidian',230,374,460,144,230
-Off-White x Wmns Air Jordan 4 SP 'Sail',1000,1007,1067,7,67
-Air Jordan 1 Retro High OG 'Court Purple 2.0',185,195,323,10,138
-Air Jordan 1 Mid 'Chicago Black Toe',173,142,152,-31,-21
-Off-White x Air Jordan 5 Retro SP 'Sail',700,777,850,77,150
-Air Foamposite One Retro 'Anthracite' 2020,255,313,388,58,133
-Yeezy Boost 350 V2 'Black Non-Reflective',400,391,444,-9,44
-Air Jordan 1 Retro High OG 'Bloodline',150,134,204,-16,54
-Yeezy Boost 350 V2 'Zebra',350,328,337,-22,-13
-Yeezy Boost 380 'Pepper Non-Reflective',185,178,241,-7,56
-Travis Scott x Air Jordan 1 Retro High OG 'Mocha',1221,1193,1194,-28,-27
-Yeezy Quantum 'Teal Blue',200,188,195,-12,-5
-Yeezy Boost 350 V2 'Cinder Non-Reflective',327,312,350,-15,23
-Supreme x Air Max Plus TN 'Mean Green',250,312,320,62,70
-Off-White x Air Jordan 5 Retro SP 'Muslin',435,453,482,18,47
-Air Jordan 4 Retro OG 'Bred' 2019,280,255,265,-25,-15
-Air Jordan 1 Retro High OG 'Smoke Grey',225,217,282,-8,57
+Air Jordan 4 Retro 'Toro Bravo',540,587,533,-7,47
+Air Jordan 1 Low 'Shattered Backboard',195,255,222,27,60
+Yeezy Boost 700 Kids 'Wave Runner',270,264,257,-13,-6
+Air Jordan 3 Retro 'Hall of Fame',299,300,283,-16,1
+Air Jordan 13 Retro 'Chicago' 2017,150,209,140,-10,59
+Air Jordan 1 Mid GS 'Light Smoke Grey',150,362,170,20,212
+UltraBoost 4.0 'Triple White',115,345,203,88,230
+Yeezy Boost 350 V2 'Sulfur',265,311,279,14,46
+Off-White x Rubber Dunk PS 'Green Strike',104,138,87,-17,34
+Air Jordan 4 Retro 'Cement' 2012,459,628,478,19,169
+Air Jordan 1 Mid 'Shattered Backboard',113,101,86,-27,-12
+Yeezy 500 'Salt',290,268,262,-28,-22
+Air Jordan 12 Retro 'Taxi' 2013,338,322,305,-33,-16
+Air Jordan 4 Retro 'FIBA',179,215,206,27,36
+Air Jordan 10 Retro 'Shadow' 2018,117,190,158,41,73
+Yeezy Desert Boot 'Rock',271,513,502,231,242
+Air Force 1 Low 'NY vs NY',90,87,64,-26,-3
+Air Max 90 'Infrared' 2020,150,125,124,-26,-25
+Air Jordan 4 Retro LS 'Legend Blue',140,144,143,3,4
+Grateful Dead x Chinatown Market x Clog 'Tie Dye',78,109,56,-22,31
+Air Jordan 11 Retro Low GS 'Concord-Bred',158,240,125,-33,82
+Dunk Low SB 'Blue Fury',190,210,178,-12,20
+Air Max CB 94 'Triple Black' 2020,222,329,242,20,107
+Old Skool 'Black White',55,54,47,-8,-1
+Air Max 270 'White',99,214,82,-17,115
+Air Jordan 8 Retro 'Aqua' 2015,300,547,479,179,247
+Air VaporMax Flyknit 3 'Oreo',129,140,128,-1,11
+Gucci Ace Embroidered 'Snake',650,725,672,22,75
+Dunk Low SB 'Night of Mischief',490,622,463,-27,132
+Air Jordan 1 Mid 'Noble Red',117,107,102,-15,-10
+Yeezy Boost 700 'Teal Blue',318,308,306,-12,-10
+Yeezy Slides 'Earth Brown',175,187,152,-23,12
+Air Jordan 11 Low Retro IE 'Black Cement',145,319,119,-26,174
+Air Jordan 13 Retro GS 'Lucky Green',120,212,206,86,92
+Air Jordan 1 Mid GS 'Black Racer Blue',119,188,88,-31,69
+Slam Jam x Dunk High 'White Platinum',295,384,321,26,89
+Air Jordan 11 Retro Low 'Cherry' 2016,364,414,334,-30,50
+Air Jordan 7 Retro 'Greater China',170,231,147,-23,61
+Yeezy Boost 350 V2 Kids 'Black Non-Reflective',365,516,355,-10,151
+Yeezy Boost 350 'Turtle Dove',1595,1599,1582,-13,4
+Yeezy Boost 380 'Mist Reflective',293,271,270,-23,-22
+Blazer Mid '77 Vintage 'Racer Blue',106,271,119,13,165
+Air Jordan 13 Retro 'He Got Game' 2018,300,520,324,24,220
+Air Jordan 3 Retro SE 'Animal Instinct 2.0',222,263,261,39,41
+Off-White x Air Max 97 'Menta',835,1009,822,-13,174
+Air Max 720 'Bubble Pack',94,128,78,-16,34
+Air Foamposite One 'Cracked Lava',119,251,116,-3,132
+Air Jordan 1 Low GS 'Pine Green',190,308,175,-15,118
+Air Jordan 6 Retro 'Washed Denim',137,317,131,-6,180
+Air Jordan 6 Retro 'Infrared' 2014,200,278,250,50,78
+Air Jordan 1 Mid GS 'Chicago',130,132,123,-7,2
+Yeezy Season 7 Desert Boot 'Oil',258,260,249,-9,2
+Air Jordan 4 Retro 'Motorsports Alternate',230,235,232,2,5
+Yeezy Boost 700 MNVN 'Phosphor',375,404,400,25,29
+Air Jordan 3 Retro PS 'Laser Orange',95,245,93,-2,150
+Air Foamposite One 'Black',280,342,244,-36,62
+Union LA x Air Jordan 4 Retro 'Off Noir',549,728,726,177,179
+Air Jordan 1 Retro High OG 'Dark Mocha',324,389,342,18,65
+Wmns Air Jordan 1 Retro High OG 'Lucky Green',230,373,227,-3,143
+Air Jordan 1 Retro High OG 'Royal Toe',220,307,214,-6,87
+Air Jordan 1 Retro High OG 'Obsidian',230,460,374,144,230
+Off-White x Wmns Air Jordan 4 SP 'Sail',1000,1067,1007,7,67
+Air Jordan 1 Retro High OG 'Court Purple 2.0',185,323,195,10,138
+Air Jordan 1 Mid 'Chicago Black Toe',173,152,142,-31,-21
+Off-White x Air Jordan 5 Retro SP 'Sail',700,850,777,77,150
+Air Foamposite One Retro 'Anthracite' 2020,255,388,313,58,133
+Yeezy Boost 350 V2 'Black Non-Reflective',400,444,391,-9,44
+Air Jordan 1 Retro High OG 'Bloodline',150,204,134,-16,54
+Yeezy Boost 350 V2 'Zebra',350,337,328,-22,-13
+Yeezy Boost 380 'Pepper Non-Reflective',185,241,178,-7,56
+Travis Scott x Air Jordan 1 Retro High OG 'Mocha',1221,1194,1193,-28,-27
+Yeezy Quantum 'Teal Blue',200,195,188,-12,-5
+Yeezy Boost 350 V2 'Cinder Non-Reflective',327,350,312,-15,23
+Supreme x Air Max Plus TN 'Mean Green',250,320,312,62,70
+Off-White x Air Jordan 5 Retro SP 'Muslin',435,482,453,18,47
+Air Jordan 4 Retro OG 'Bred' 2019,280,265,255,-25,-15
+Air Jordan 1 Retro High OG 'Smoke Grey',225,282,217,-8,57
 Air Jordan 4 Retro 'Purple Metallic',299,283,283,-16,-16
-Supreme x Air Max Plus TN 'University Red',235,213,228,-22,-7
-Air Max 97 'Halloween Slime',236,242,268,6,32
-Union LA x Air Jordan 4 Retro 'Guava Ice',888,863,867,-25,-21
-Wmns Air Jordan 1 Mid 'Sisterhood',165,141,172,-24,7
-Air Jordan 11 Retro 'Bred' 2019,295,318,325,23,30
-Wmns Air Jordan 1 Retro High OG 'Blue Chill',500,516,602,16,102
-Air Force 1 '07 'White',87,106,154,19,67
-Air Jordan 1 Retro High OG 'Turbo Green',200,194,200,-6,0
-Dior x Air Jordan 1 High,8082,8114,8140,32,58
-Air Jordan 1 Retro High OG 'Shattered Backboar...,220,176,370,-44,150
-Air Jordan 1 Retro High OG 'Pine Green 2.0',230,224,285,-6,55
-Air Jordan 6 Retro 'Infrared' 2019,191,324,341,133,150
-Air Jordan 4 Retro 'Black Cat' 2020,398,402,439,4,41
-Air Jordan 1 Retro High OG 'Bred Toe',310,277,349,-33,39
-Yeezy Boost 350 V2 'Cream White / Triple White',345,466,494,121,149
-Air Jordan 1 Retro High OG 'Fearless',321,334,358,13,37
-Air Jordan 4 Retro 'Cool Grey' 2019,148,146,187,-2,39
-Yeezy Boost 700 'Wave Runner',540,525,588,-15,48
-Air Jordan 1 Mid 'Pine Green',85,67,172,-18,87
-Fragment Design x Air Jordan 3 Retro SP 'White',348,419,495,71,147
-Off-White x Air Jordan 1 Retro High OG 'UNC',1650,1637,1653,-13,3
-Wmns Air Jordan 1 High OG 'UNC To Chicago',225,240,462,15,237
-Air Jordan 12 Retro GS 'Dark Concord',163,170,243,7,80
-Air Jordan 1 Retro High OG 'Shadow' 2018,164,201,322,37,158
-Off-White x Air Jordan 1 Retro High OG 'Chicago',3700,3680,3689,-20,-11
-Air Jordan 12 Retro 'University Gold',200,219,249,19,49
-Zoom Kobe 5 Protro '5 Rings',200,191,308,-9,108
-Air Jordan 5 OG 'Metallic' 2016,150,222,258,72,108
-Air Jordan 11 Retro 'Concord' 2018,400,465,516,65,116
-Air Jordan 5 Retro SE 'What The',368,408,421,40,53
-Travis Scott x Air Jordan 4 Retro 'Cactus Jack',975,1016,1067,41,92
-Adapt BB 2.0 'Nike Mag',379,347,369,-32,-10
-Air Jordan 1 Mid 'Smoke Grey',150,176,196,26,46
-Wmns Air Jordan 1 Retro High OG 'Twist',679,689,702,10,23
-Air Jordan 12 Retro 'Indigo',205,190,305,-15,100
-Travis Scott x Dunk Low Premium QS SB 'Cactus ...,1595,1592,1595,-3,0
-Wmns Air Jordan 1 Low 'UNC',215,221,266,6,51
-Air Jordan 1 Retro High OG GS 'Dark Mocha',376,421,454,45,78
-Air Jordan 1 Retro High OG 'Rookie of the Year',175,203,218,28,43
-Yeezy Slides 'Core',160,266,390,106,230
-Blazer Mid '77 Vintage 'White Black',88,127,236,39,148
-Air Jordan 5 Retro 'Alternate Bel-Air',177,154,244,-23,67
-Wmns Air Jordan 1 Retro High OG 'Satin Red',250,353,364,103,114
-Bad Bunny x Classic Clog 'Glow In The Dark',170,282,355,112,185
-Off-White x Air Rubber Dunk 'University Blue',355,332,340,-23,-15
-Yeezy Boost 700 V2 'Geode',308,340,386,32,78
-Off-White x Air Force 1 Low '07 'MCA',1300,1343,1349,43,49
-Air Jordan 1 Retro High OG 'Game Royal',180,260,264,80,84
-Air Jordan 4 Retro OG 'White Cement' 2016,487,448,468,-39,-19
-Yeezy Boost 350 V2 'Beluga 2.0',559,589,616,30,57
-Yeezy Boost 350 V2 'Earth',290,442,512,152,222
-Ruohan Wang x Air Force 1 Low,175,170,204,-5,29
-Travis Scott x Air Jordan 1 Low 'Mocha',979,953,1035,-26,56
-Pharrell x NMD Human Race 'Dash Green',265,233,245,-32,-20
-Rui Hachimura x Air Jordan 35 'Warrior',229,254,265,25,36
-Air Jordan 3 Retro Denim SE 'Fire Red',208,330,376,122,168
-Air Jordan 1 Retro High OG GS 'Royal Toe',280,435,439,155,159
-Air Jordan 1 Low 'Light Smoke Grey',123,151,201,28,78
-Air Jordan 1 Retro High OG 'Chicago' 2015,650,678,718,28,68
-Dunk Low 'Community Garden',395,439,476,44,81
-Yeezy Boost 350 V2 'Static Non-Reflective',360,339,364,-21,4
-Wmns Air Jordan 1 Retro High 'Satin Black Toe',420,412,413,-8,-7
-Air Jordan 1 Retro High OG Premium 'Yin Yang',104,208,226,104,122
-Yeezy Boost 350 V2 'Cloud White Non-Reflective',340,355,363,15,23
-Air Jordan 1 Retro High OG 'Banned' 2016,350,360,368,10,18
-Nike Mag 'Back To The Future',15000,15014,15016,14,16
-Air Jordan 5 Retro SE 'Oregon',230,275,363,45,133
-Pharrell x NMD Human Race Trail PRD 'Now Is He...,172,291,298,119,126
-Yeezy Slides 'Soot',137,103,166,-34,29
-Off-White x Air Max 90 'Black',538,551,607,13,69
-Dunk High SP Retro 'Michigan' 2020,204,276,446,72,242
-Comme des Garçons x Air Force 1 Mid 'Triple White',359,340,383,-19,24
-Yeezy 700 V3 'Alvah',458,463,470,5,12
-Air Jordan 1 Mid SE 'Red Black Toe',120,127,170,7,50
-Stussy x Air Zoom Spiridon Caged 'Fossil',350,469,487,119,137
-Air Jordan 4 Retro SE 'What The 4',200,210,321,10,121
-Air Jordan 5 Retro 'Alternate Grape',200,163,178,-37,-22
-Wmns Air Jordan 11 Retro Low 'Concord Sketch',180,198,232,18,52
-Off-White x Air Jordan 5 Retro SP PS 'Sail',398,443,493,45,95
-Travis Scott x Air Jordan 6 Retro 'Olive',616,620,659,4,43
-Dunk High SP 'Spartan Green',203,250,456,47,253
-Supreme x Air Max Plus TN 'White',615,631,673,16,58
-Wmns Air Jordan 1 Retro High OG 'Tie-Dye',330,368,369,38,39
-Yeezy Boost 350 V2 'Citrin Non-Reflective',255,233,357,-22,102
-Air Force 1 Low 'ALL FOR 1 - NYC Parks',95,151,164,56,69
-Air Jordan 4 Retro OG GS 'Bred' 2019,219,187,190,-32,-29
-Air Jordan 1 Low 'Gym Red',134,134,136,0,2
+Supreme x Air Max Plus TN 'University Red',235,228,213,-22,-7
+Air Max 97 'Halloween Slime',236,268,242,6,32
+Union LA x Air Jordan 4 Retro 'Guava Ice',888,867,863,-25,-21
+Wmns Air Jordan 1 Mid 'Sisterhood',165,172,141,-24,7
+Air Jordan 11 Retro 'Bred' 2019,295,325,318,23,30
+Wmns Air Jordan 1 Retro High OG 'Blue Chill',500,602,516,16,102
+Air Force 1 '07 'White',87,154,106,19,67
+Air Jordan 1 Retro High OG 'Turbo Green',200,200,194,-6,0
+Dior x Air Jordan 1 High,8082,8140,8114,32,58
+Air Jordan 1 Retro High OG 'Shattered Backboar...,220,370,176,-44,150
+Air Jordan 1 Retro High OG 'Pine Green 2.0',230,285,224,-6,55
+Air Jordan 6 Retro 'Infrared' 2019,191,341,324,133,150
+Air Jordan 4 Retro 'Black Cat' 2020,398,439,402,4,41
+Air Jordan 1 Retro High OG 'Bred Toe',310,349,277,-33,39
+Yeezy Boost 350 V2 'Cream White / Triple White',345,494,466,121,149
+Air Jordan 1 Retro High OG 'Fearless',321,358,334,13,37
+Air Jordan 4 Retro 'Cool Grey' 2019,148,187,146,-2,39
+Yeezy Boost 700 'Wave Runner',540,588,525,-15,48
+Air Jordan 1 Mid 'Pine Green',85,172,67,-18,87
+Fragment Design x Air Jordan 3 Retro SP 'White',348,495,419,71,147
+Off-White x Air Jordan 1 Retro High OG 'UNC',1650,1653,1637,-13,3
+Wmns Air Jordan 1 High OG 'UNC To Chicago',225,462,240,15,237
+Air Jordan 12 Retro GS 'Dark Concord',163,243,170,7,80
+Air Jordan 1 Retro High OG 'Shadow' 2018,164,322,201,37,158
+Off-White x Air Jordan 1 Retro High OG 'Chicago',3700,3689,3680,-20,-11
+Air Jordan 12 Retro 'University Gold',200,249,219,19,49
+Zoom Kobe 5 Protro '5 Rings',200,308,191,-9,108
+Air Jordan 5 OG 'Metallic' 2016,150,258,222,72,108
+Air Jordan 11 Retro 'Concord' 2018,400,516,465,65,116
+Air Jordan 5 Retro SE 'What The',368,421,408,40,53
+Travis Scott x Air Jordan 4 Retro 'Cactus Jack',975,1067,1016,41,92
+Adapt BB 2.0 'Nike Mag',379,369,347,-32,-10
+Air Jordan 1 Mid 'Smoke Grey',150,196,176,26,46
+Wmns Air Jordan 1 Retro High OG 'Twist',679,702,689,10,23
+Air Jordan 12 Retro 'Indigo',205,305,190,-15,100
+Travis Scott x Dunk Low Premium QS SB 'Cactus ...,1595,1595,1592,-3,0
+Wmns Air Jordan 1 Low 'UNC',215,266,221,6,51
+Air Jordan 1 Retro High OG GS 'Dark Mocha',376,454,421,45,78
+Air Jordan 1 Retro High OG 'Rookie of the Year',175,218,203,28,43
+Yeezy Slides 'Core',160,390,266,106,230
+Blazer Mid '77 Vintage 'White Black',88,236,127,39,148
+Air Jordan 5 Retro 'Alternate Bel-Air',177,244,154,-23,67
+Wmns Air Jordan 1 Retro High OG 'Satin Red',250,364,353,103,114
+Bad Bunny x Classic Clog 'Glow In The Dark',170,355,282,112,185
+Off-White x Air Rubber Dunk 'University Blue',355,340,332,-23,-15
+Yeezy Boost 700 V2 'Geode',308,386,340,32,78
+Off-White x Air Force 1 Low '07 'MCA',1300,1349,1343,43,49
+Air Jordan 1 Retro High OG 'Game Royal',180,264,260,80,84
+Air Jordan 4 Retro OG 'White Cement' 2016,487,468,448,-39,-19
+Yeezy Boost 350 V2 'Beluga 2.0',559,616,589,30,57
+Yeezy Boost 350 V2 'Earth',290,512,442,152,222
+Ruohan Wang x Air Force 1 Low,175,204,170,-5,29
+Travis Scott x Air Jordan 1 Low 'Mocha',979,1035,953,-26,56
+Pharrell x NMD Human Race 'Dash Green',265,245,233,-32,-20
+Rui Hachimura x Air Jordan 35 'Warrior',229,265,254,25,36
+Air Jordan 3 Retro Denim SE 'Fire Red',208,376,330,122,168
+Air Jordan 1 Retro High OG GS 'Royal Toe',280,439,435,155,159
+Air Jordan 1 Low 'Light Smoke Grey',123,201,151,28,78
+Air Jordan 1 Retro High OG 'Chicago' 2015,650,718,678,28,68
+Dunk Low 'Community Garden',395,476,439,44,81
+Yeezy Boost 350 V2 'Static Non-Reflective',360,364,339,-21,4
+Wmns Air Jordan 1 Retro High 'Satin Black Toe',420,413,412,-8,-7
+Air Jordan 1 Retro High OG Premium 'Yin Yang',104,226,208,104,122
+Yeezy Boost 350 V2 'Cloud White Non-Reflective',340,363,355,15,23
+Air Jordan 1 Retro High OG 'Banned' 2016,350,368,360,10,18
+Nike Mag 'Back To The Future',15000,15016,15014,14,16
+Air Jordan 5 Retro SE 'Oregon',230,363,275,45,133
+Pharrell x NMD Human Race Trail PRD 'Now Is He...,172,298,291,119,126
+Yeezy Slides 'Soot',137,166,103,-34,29
+Off-White x Air Max 90 'Black',538,607,551,13,69
+Dunk High SP Retro 'Michigan' 2020,204,446,276,72,242
+Comme des Garçons x Air Force 1 Mid 'Triple White',359,383,340,-19,24
+Yeezy 700 V3 'Alvah',458,470,463,5,12
+Air Jordan 1 Mid SE 'Red Black Toe',120,170,127,7,50
+Stussy x Air Zoom Spiridon Caged 'Fossil',350,487,469,119,137
+Air Jordan 4 Retro SE 'What The 4',200,321,210,10,121
+Air Jordan 5 Retro 'Alternate Grape',200,178,163,-37,-22
+Wmns Air Jordan 11 Retro Low 'Concord Sketch',180,232,198,18,52
+Off-White x Air Jordan 5 Retro SP PS 'Sail',398,493,443,45,95
+Travis Scott x Air Jordan 6 Retro 'Olive',616,659,620,4,43
+Dunk High SP 'Spartan Green',203,456,250,47,253
+Supreme x Air Max Plus TN 'White',615,673,631,16,58
+Wmns Air Jordan 1 Retro High OG 'Tie-Dye',330,369,368,38,39
+Yeezy Boost 350 V2 'Citrin Non-Reflective',255,357,233,-22,102
+Air Force 1 Low 'ALL FOR 1 - NYC Parks',95,164,151,56,69
+Air Jordan 4 Retro OG GS 'Bred' 2019,219,190,187,-32,-29
+Air Jordan 1 Low 'Gym Red',134,136,134,0,2
 Yeezy Boost 350 V2 'Blue Tint',448,470,470,22,22
-Salehe Bembury x 2002R 'Peace Be The Journey',294,287,293,-7,-1
-Yeezy Foam Runner 'Ararat',385,406,481,21,96
-Dunk Low Retro SP 'St. John's',384,441,504,57,120
-KAWS x Air Jordan 4 Retro 'Black',1150,1111,1126,-39,-24
-Air Jordan 1 Retro High OG GS 'Obsidian',483,589,618,106,135
+Salehe Bembury x 2002R 'Peace Be The Journey',294,293,287,-7,-1
+Yeezy Foam Runner 'Ararat',385,481,406,21,96
+Dunk Low Retro SP 'St. John's',384,504,441,57,120
+KAWS x Air Jordan 4 Retro 'Black',1150,1126,1111,-39,-24
+Air Jordan 1 Retro High OG GS 'Obsidian',483,618,589,106,135
 Wmns Air Jordan 3 Retro 'Laser Orange',215,406,406,191,191
-Air Jordan 1 Retro High OG 'Royal' 2017,439,409,420,-30,-19
-Wmns Dunk Low 'White Oatmeal',730,710,729,-20,-1
-Air Jordan 3 Retro OG 'Black Cement' 2018,340,347,400,7,60
-Air VaporMax Plus 'Triple Black',160,181,249,21,89
-Wmns Air Jordan 1 Mid SE 'Desert Ochre',143,144,147,1,4
-Air Jordan 3 Retro OG 'True Blue' 2016,199,169,195,-30,-4
-Air Jordan 1 Retro High OG 'Pine Green',384,352,424,-32,40
-Air Jordan 5 Retro 'Top 3',208,257,272,49,64
-Air Jordan 1 Retro High OG 'Neutral Grey',139,153,155,14,16
-Off-White x Dunk Low 'University Red',562,537,594,-25,32
+Air Jordan 1 Retro High OG 'Royal' 2017,439,420,409,-30,-19
+Wmns Dunk Low 'White Oatmeal',730,729,710,-20,-1
+Air Jordan 3 Retro OG 'Black Cement' 2018,340,400,347,7,60
+Air VaporMax Plus 'Triple Black',160,249,181,21,89
+Wmns Air Jordan 1 Mid SE 'Desert Ochre',143,147,144,1,4
+Air Jordan 3 Retro OG 'True Blue' 2016,199,195,169,-30,-4
+Air Jordan 1 Retro High OG 'Pine Green',384,424,352,-32,40
+Air Jordan 5 Retro 'Top 3',208,272,257,49,64
+Air Jordan 1 Retro High OG 'Neutral Grey',139,155,153,14,16
+Off-White x Dunk Low 'University Red',562,594,537,-25,32
 Yeezy Boost 350 V2 'Tail Light',370,343,343,-27,-27
 Supreme x Air Force 1 Low 'Box Logo - White',210,190,190,-20,-20
-Yeezy Boost 350 V2 'Semi Frozen Yellow',325,309,339,-16,14
-Air Jordan 1 Retro High OG PS 'Lucky Green',80,190,213,110,133
-Air Jordan 4 Retro OG 'Fire Red' 2020,289,302,304,13,15
-Dior x Air Jordan 1 Low,6150,6123,6136,-27,-14
-Pharrell x NMD Human Race 'Extra Eye - Legacy ...,210,196,207,-14,-3
-Ben & Jerry's x Dunk Low SB 'Chunky Dunky',1332,1363,1410,31,78
-LeBron 18 'Lakers',179,159,185,-20,6
-Wmns Air Force 1 Shadow 'Pastel',118,227,288,109,170
-Air Jordan 1 Retro High OG 'Phantom',100,329,379,229,279
-Air Jordan 6 Retro 'Defining Moments' 2020,220,234,269,14,49
-Union LA x Jordan Zoom '92 'Guava Ice',220,210,221,-10,1
-Air Jordan 4 Retro GS 'Black Cat' 2020,353,424,481,71,128
-Air Jordan 1 Mid SE 'Royal Black Toe',109,125,191,16,82
-Yeezy Boost 700 'Mauve',335,298,407,-37,72
-Yeezy Boost 380 'Pepper Reflective',240,226,243,-14,3
-Air Max 720 ISPA 'Summit White',119,228,252,109,133
-Yeezy Boost 350 V2 'Butter',313,319,479,6,166
-Off-White x Air Max 90 'Desert Ore',498,509,549,11,51
-Travis Scott x Air Force 1 Low 'Cactus Jack',500,482,487,-18,-13
-Union LA x Air Jordan 1 Retro High NRG 'Storm ...,1672,1771,1934,99,262
-Paris Saint-Germain x Air Jordan 4 Retro GS 'B...,208,203,221,-5,13
-Off-White x Air Rubber Dunk 'University Gold',288,335,337,47,49
-Air Jordan 1 Retro High OG CO.JP 'Tokyo',210,216,353,6,143
-Air Jordan 1 Mid 'White Shadow',130,112,214,-18,84
-Air Jordan 1 Retro High OG 'Court Purple',399,436,514,37,115
-ISPA Road Warrior 'Clear Jade',600,599,602,-1,2
-Wmns Air Jordan 1 Mid SE 'Lightbulb',178,162,195,-16,17
-Air Max 97 'On Air: Neon Seoul',130,184,286,54,156
-Air Jordan 12 Retro 'Reverse Flu Game',820,810,813,-10,-7
-Air Jordan 1 Retro High SB 'NYC to Paris',225,229,270,4,45
-Union LA x Air Jordan 1 Retro High NRG 'Black Toe',1310,1302,1314,-8,4
-KD 13 'Aunt Pearl',192,164,170,-28,-22
-Yeezy Boost 350 V2 'Linen',282,281,296,-1,14
-Space Hippie 03 'Grey Volt',170,165,225,-5,55
-Air Jordan 1 Retro High OG 'First Class Flight',80,83,84,3,4
-Aimé Leon Dore x 550 'Red',224,309,340,85,116
-Travis Scott x Air Max 270 React ENG 'Cactus T...,400,373,386,-27,-14
-LeBron 7 QS 'Media Day',180,184,194,4,14
-Air Yeezy 2 SP 'Red October',8500,8509,8513,9,13
-Air Jordan 1 Retro High OG 'Shattered Backboard',1235,1214,1221,-21,-14
-Feng Chen Wang x Chuck 70 2-in-1 'Persimmon Ivory',170,165,310,-5,140
-Union LA x Jordan Delta Mid 'Off Noir',220,199,220,-21,0
-Air Jordan 13 Retro 'Flint' 2020,220,210,430,-10,210
-Yeezy Quantum 'Barium',189,407,409,218,220
-Air Jordan 12 Retro 'Game Royal',216,263,326,47,110
-Air Jordan 11 Retro Low 'Light Bone Snakeskin',100,126,190,26,90
-Air Jordan 1 Mid 'Chicago',135,161,163,26,28
-Air Jordan 1 Mid GS 'Chicago Black Toe',142,140,224,-2,82
-Yeezy Boost 700 'Analog',320,347,373,27,53
-Off-White x Dunk Low 'Pine Green',600,564,589,-36,-11
-Air Jordan 1 Retro High OG GS 'Pine Green 2.0',253,211,270,-42,17
-Air Jordan 1 Retro High OG 'Black Gym Red',110,169,181,59,71
-Yeezy Boost 380 'Mist Non-Reflective',210,231,369,21,159
-Air Jordan 11 Retro 'Win Like '96',265,267,296,2,31
-Air Jordan 4 Retro 'Pale Citron',125,148,163,23,38
-Air Force 1 '07 QS 'Black Skeleton',203,196,201,-7,-2
-Off-White x Air Force 1 Low 'Black',754,825,923,71,169
-Dunk Low Retro SP 'Syracuse',480,460,503,-20,23
-Air Jordan 1 Retro High OG 'Top 3',400,407,409,7,9
-Yeezy PowerPhase 'Quiet Grey',104,78,86,-26,-18
-Star Wars x Rivalry Hi 'Chewbacca',178,349,441,171,263
-Yeezy Boost 700 'Utility Black',350,309,391,-41,41
+Yeezy Boost 350 V2 'Semi Frozen Yellow',325,339,309,-16,14
+Air Jordan 1 Retro High OG PS 'Lucky Green',80,213,190,110,133
+Air Jordan 4 Retro OG 'Fire Red' 2020,289,304,302,13,15
+Dior x Air Jordan 1 Low,6150,6136,6123,-27,-14
+Pharrell x NMD Human Race 'Extra Eye - Legacy ...,210,207,196,-14,-3
+Ben & Jerry's x Dunk Low SB 'Chunky Dunky',1332,1410,1363,31,78
+LeBron 18 'Lakers',179,185,159,-20,6
+Wmns Air Force 1 Shadow 'Pastel',118,288,227,109,170
+Air Jordan 1 Retro High OG 'Phantom',100,379,329,229,279
+Air Jordan 6 Retro 'Defining Moments' 2020,220,269,234,14,49
+Union LA x Jordan Zoom '92 'Guava Ice',220,221,210,-10,1
+Air Jordan 4 Retro GS 'Black Cat' 2020,353,481,424,71,128
+Air Jordan 1 Mid SE 'Royal Black Toe',109,191,125,16,82
+Yeezy Boost 700 'Mauve',335,407,298,-37,72
+Yeezy Boost 380 'Pepper Reflective',240,243,226,-14,3
+Air Max 720 ISPA 'Summit White',119,252,228,109,133
+Yeezy Boost 350 V2 'Butter',313,479,319,6,166
+Off-White x Air Max 90 'Desert Ore',498,549,509,11,51
+Travis Scott x Air Force 1 Low 'Cactus Jack',500,487,482,-18,-13
+Union LA x Air Jordan 1 Retro High NRG 'Storm ...,1672,1934,1771,99,262
+Paris Saint-Germain x Air Jordan 4 Retro GS 'B...,208,221,203,-5,13
+Off-White x Air Rubber Dunk 'University Gold',288,337,335,47,49
+Air Jordan 1 Retro High OG CO.JP 'Tokyo',210,353,216,6,143
+Air Jordan 1 Mid 'White Shadow',130,214,112,-18,84
+Air Jordan 1 Retro High OG 'Court Purple',399,514,436,37,115
+ISPA Road Warrior 'Clear Jade',600,602,599,-1,2
+Wmns Air Jordan 1 Mid SE 'Lightbulb',178,195,162,-16,17
+Air Max 97 'On Air: Neon Seoul',130,286,184,54,156
+Air Jordan 12 Retro 'Reverse Flu Game',820,813,810,-10,-7
+Air Jordan 1 Retro High SB 'NYC to Paris',225,270,229,4,45
+Union LA x Air Jordan 1 Retro High NRG 'Black Toe',1310,1314,1302,-8,4
+KD 13 'Aunt Pearl',192,170,164,-28,-22
+Yeezy Boost 350 V2 'Linen',282,296,281,-1,14
+Space Hippie 03 'Grey Volt',170,225,165,-5,55
+Air Jordan 1 Retro High OG 'First Class Flight',80,84,83,3,4
+Aimé Leon Dore x 550 'Red',224,340,309,85,116
+Travis Scott x Air Max 270 React ENG 'Cactus T...,400,386,373,-27,-14
+LeBron 7 QS 'Media Day',180,194,184,4,14
+Air Yeezy 2 SP 'Red October',8500,8513,8509,9,13
+Air Jordan 1 Retro High OG 'Shattered Backboard',1235,1221,1214,-21,-14
+Feng Chen Wang x Chuck 70 2-in-1 'Persimmon Ivory',170,310,165,-5,140
+Union LA x Jordan Delta Mid 'Off Noir',220,220,199,-21,0
+Air Jordan 13 Retro 'Flint' 2020,220,430,210,-10,210
+Yeezy Quantum 'Barium',189,409,407,218,220
+Air Jordan 12 Retro 'Game Royal',216,326,263,47,110
+Air Jordan 11 Retro Low 'Light Bone Snakeskin',100,190,126,26,90
+Air Jordan 1 Mid 'Chicago',135,163,161,26,28
+Air Jordan 1 Mid GS 'Chicago Black Toe',142,224,140,-2,82
+Yeezy Boost 700 'Analog',320,373,347,27,53
+Off-White x Dunk Low 'Pine Green',600,589,564,-36,-11
+Air Jordan 1 Retro High OG GS 'Pine Green 2.0',253,270,211,-42,17
+Air Jordan 1 Retro High OG 'Black Gym Red',110,181,169,59,71
+Yeezy Boost 380 'Mist Non-Reflective',210,369,231,21,159
+Air Jordan 11 Retro 'Win Like '96',265,296,267,2,31
+Air Jordan 4 Retro 'Pale Citron',125,163,148,23,38
+Air Force 1 '07 QS 'Black Skeleton',203,201,196,-7,-2
+Off-White x Air Force 1 Low 'Black',754,923,825,71,169
+Dunk Low Retro SP 'Syracuse',480,503,460,-20,23
+Air Jordan 1 Retro High OG 'Top 3',400,409,407,7,9
+Yeezy PowerPhase 'Quiet Grey',104,86,78,-26,-18
+Star Wars x Rivalry Hi 'Chewbacca',178,441,349,171,263
+Yeezy Boost 700 'Utility Black',350,391,309,-41,41
 Yeezy Boost 350 V2 'Yeezreel Non-Reflective',250,285,285,35,35
-Air Jordan 12 Retro 'Deep Royal',175,191,203,16,28
-Yeezy 500 'Utility Black',440,471,543,31,103
-Zoom Kobe 5 Protro 'Big Stage',320,388,392,68,72
-Off-White x Air Presto 'Black',719,701,718,-18,-1
-Dunk Low Retro SP 'Kentucky',480,505,515,25,35
-Wmns Air Force 1 '07 'White',85,256,284,171,199
-Yeezy Season 7 Desert Boot 'House Blue',231,219,228,-12,-3
-Dunk Low Retro 'Samba' 2020,206,195,198,-11,-8
-Pharrell x NMD Human Race 'Sesame',289,305,337,16,48
-Air Jordan 11 Retro 'Gamma Blue',500,460,462,-40,-38
-Supreme x Louis Vuitton x Red Ribbon Recon x A...,30000,30035,30040,35,40
-Zoom Kobe 5 Protro 'P.J. Tucker' PE,250,246,251,-4,1
-Air Jordan 1 Mid 'Black Hyper Royal',174,172,212,-2,38
-Off-White x Wmns Vapor Street 'Laser Fuchsia',130,263,318,133,188
-Air Max Trainer 3 'Dracula',178,237,345,59,167
-Air Jordan 5 Retro SP 'Michigan',125,103,104,-22,-21
-Air Jordan 1 Retro High SB 'LA To Chicago',451,416,423,-35,-28
+Air Jordan 12 Retro 'Deep Royal',175,203,191,16,28
+Yeezy 500 'Utility Black',440,543,471,31,103
+Zoom Kobe 5 Protro 'Big Stage',320,392,388,68,72
+Off-White x Air Presto 'Black',719,718,701,-18,-1
+Dunk Low Retro SP 'Kentucky',480,515,505,25,35
+Wmns Air Force 1 '07 'White',85,284,256,171,199
+Yeezy Season 7 Desert Boot 'House Blue',231,228,219,-12,-3
+Dunk Low Retro 'Samba' 2020,206,198,195,-11,-8
+Pharrell x NMD Human Race 'Sesame',289,337,305,16,48
+Air Jordan 11 Retro 'Gamma Blue',500,462,460,-40,-38
+Supreme x Louis Vuitton x Red Ribbon Recon x A...,30000,30040,30035,35,40
+Zoom Kobe 5 Protro 'P.J. Tucker' PE,250,251,246,-4,1
+Air Jordan 1 Mid 'Black Hyper Royal',174,212,172,-2,38
+Off-White x Wmns Vapor Street 'Laser Fuchsia',130,318,263,133,188
+Air Max Trainer 3 'Dracula',178,345,237,59,167
+Air Jordan 5 Retro SP 'Michigan',125,104,103,-22,-21
+Air Jordan 1 Retro High SB 'LA To Chicago',451,423,416,-35,-28
 Dunk Low Pro SB 'Crater',175,192,192,17,17
-Wmns Air Jordan 1 Zoom Comfort SE 'Sisterhood',170,175,193,5,23
-LeBron 18 'Sisterhood',268,259,485,-9,217
-StrangeLove x Dunk Low SB 'Valentine's Day',960,1028,1113,68,153
-Comme des Garçons x Air Force 1 Low '07 'Blue ...,360,400,642,40,282
-Air Jordan 4 Winter 'Loyal Blue',210,199,207,-11,-3
-Air Jordan 1 Retro High OG BG 'Shattered Backb...,318,317,389,-1,71
-Air Jordan 1 High Zoom 'Zen Green',175,132,152,-43,-23
-Air Jordan 3 Retro 'White Cement' 2011,450,407,447,-43,-3
-Off-White x Air Force 1 Low 'Volt',803,787,846,-16,43
-Air Jordan 1 Retro High OG 'UNC',550,589,759,39,209
-Air Jordan 1 Retro High OG 'Origin Story',575,533,534,-42,-41
-Air Jordan 6 Retro 'Hare',194,197,217,3,23
-Air Jordan 3 Retro SE 'Unite - CHI Exclusive',155,173,339,18,184
+Wmns Air Jordan 1 Zoom Comfort SE 'Sisterhood',170,193,175,5,23
+LeBron 18 'Sisterhood',268,485,259,-9,217
+StrangeLove x Dunk Low SB 'Valentine's Day',960,1113,1028,68,153
+Comme des Garçons x Air Force 1 Low '07 'Blue ...,360,642,400,40,282
+Air Jordan 4 Winter 'Loyal Blue',210,207,199,-11,-3
+Air Jordan 1 Retro High OG BG 'Shattered Backb...,318,389,317,-1,71
+Air Jordan 1 High Zoom 'Zen Green',175,152,132,-43,-23
+Air Jordan 3 Retro 'White Cement' 2011,450,447,407,-43,-3
+Off-White x Air Force 1 Low 'Volt',803,846,787,-16,43
+Air Jordan 1 Retro High OG 'UNC',550,759,589,39,209
+Air Jordan 1 Retro High OG 'Origin Story',575,534,533,-42,-41
+Air Jordan 6 Retro 'Hare',194,217,197,3,23
+Air Jordan 3 Retro SE 'Unite - CHI Exclusive',155,339,173,18,184
 Sean Wotherspoon x Air Max 1/97 'Sean Wotherspoon',915,936,936,21,21
-Yeezy 700 V3 'Azael',674,638,642,-36,-32
-Pharrell x NMD Human Race 'Extra Eye - Bold Or...,199,304,344,105,145
-Air Jordan 4 Retro 'Orange Metallic',244,299,360,55,116
-Air Jordan 11 Retro GS 'Concord' 2018,175,259,261,84,86
-Yeezy 500 'Bone White',276,261,474,-15,198
-Air Jordan 1 Retro High OG PS 'Tie-Dye',79,137,169,58,90
-Fragment Design x Air Jordan 35 'Base Grey',350,327,588,-23,238
-Off-White x Air Presto 'White',610,685,821,75,211
-Aimé Leon Dore x 550 'Silver',320,390,518,70,198
-Air Jordan 11 Retro Low 'Navy Snakeskin' 2019,114,116,136,2,22
-Dunk Low SP 'Brazil' 2020,275,247,262,-28,-13
-Off-White x Air VaporMax 'Part 2',620,617,842,-3,222
-Off-White x Air Force 1 Low '07 'MoMA',2899,3085,3137,186,238
-Yeezy Boost 380 'Blue Oat Non-Reflective',209,284,297,75,88
-Air Jordan 5 Retro GS 'Alternate Bel-Air',120,98,99,-22,-21
-Air Jordan 1 Low 'Black Toe',245,233,447,-12,202
-Air Jordan 4 Retro 'Alternate 89',150,206,210,56,60
-Dunk Low SB 'J-Pack Chicago',500,478,483,-22,-17
-Yeezy Boost 700 V2 'Hospital Blue',344,384,393,40,49
-Air Jordan 11 Retro 'Cool Grey' 2010,450,492,516,42,66
-Air Force 1 Low QS 'Skeleton',375,343,432,-32,57
-Colette x Air Jordan 1 Retro High OG 'Au Revoir',6888,6892,6937,4,49
-Off-White x Blazer Mid 'Grim Reapers',530,517,589,-13,59
-Yeezy Boost 350 V2 'Beluga',736,727,732,-9,-4
+Yeezy 700 V3 'Azael',674,642,638,-36,-32
+Pharrell x NMD Human Race 'Extra Eye - Bold Or...,199,344,304,105,145
+Air Jordan 4 Retro 'Orange Metallic',244,360,299,55,116
+Air Jordan 11 Retro GS 'Concord' 2018,175,261,259,84,86
+Yeezy 500 'Bone White',276,474,261,-15,198
+Air Jordan 1 Retro High OG PS 'Tie-Dye',79,169,137,58,90
+Fragment Design x Air Jordan 35 'Base Grey',350,588,327,-23,238
+Off-White x Air Presto 'White',610,821,685,75,211
+Aimé Leon Dore x 550 'Silver',320,518,390,70,198
+Air Jordan 11 Retro Low 'Navy Snakeskin' 2019,114,136,116,2,22
+Dunk Low SP 'Brazil' 2020,275,262,247,-28,-13
+Off-White x Air VaporMax 'Part 2',620,842,617,-3,222
+Off-White x Air Force 1 Low '07 'MoMA',2899,3137,3085,186,238
+Yeezy Boost 380 'Blue Oat Non-Reflective',209,297,284,75,88
+Air Jordan 5 Retro GS 'Alternate Bel-Air',120,99,98,-22,-21
+Air Jordan 1 Low 'Black Toe',245,447,233,-12,202
+Air Jordan 4 Retro 'Alternate 89',150,210,206,56,60
+Dunk Low SB 'J-Pack Chicago',500,483,478,-22,-17
+Yeezy Boost 700 V2 'Hospital Blue',344,393,384,40,49
+Air Jordan 11 Retro 'Cool Grey' 2010,450,516,492,42,66
+Air Force 1 Low QS 'Skeleton',375,432,343,-32,57
+Colette x Air Jordan 1 Retro High OG 'Au Revoir',6888,6937,6892,4,49
+Off-White x Blazer Mid 'Grim Reapers',530,589,517,-13,59
+Yeezy Boost 350 V2 'Beluga',736,732,727,-9,-4
 Balenciaga Speed Trainer 'Black',702,681,681,-21,-21
-Air Jordan 11 Retro GS 'Bred' 2019,210,182,191,-28,-19
-Pharrell x NMD Human Race 'Light Grey Teal',300,330,424,30,124
-KAWS x Air Jordan 4 Retro 'Cool Grey',2547,2524,2597,-23,50
-Aimé Leon Dore x 550 'Evergreen',350,330,386,-20,36
-Union LA x Chuck Taylor All Star High 'White',97,52,124,-45,27
-Zoom Kobe 5 Protro '5x Champ',199,176,223,-23,24
-Kamikaze 2 Mid Retro 'Sonics' 2020,148,224,246,76,98
-Air Jordan 1 Low 'Smoke Grey',116,132,361,16,245
-Wmns Air Jordan 1 Mid 'Digital Pink',368,484,579,116,211
-Wmns Air Force 1 'Pixel White',139,276,307,137,168
-Grateful Dead x Dunk Low SB 'Yellow Bear',980,1045,1047,65,67
-Air Jordan 1 Retro High OG GS 'Smoke Grey',249,252,253,3,4
-Air Jordan 4 Retro 'Motorsports',330,368,403,38,73
-Air Jordan 3 Retro 'Court Purple',979,994,1017,15,38
-Yeezy Boost 700 V2 'Vanta',475,503,515,28,40
-Wmns Air Jordan 1 Mid SE 'Multi Patent',145,161,180,16,35
-Air Jordan 11 Retro 'Win Like '82',300,389,428,89,128
-Wmns Air Jordan 1 Mid SE 'Iridescent Trim',248,224,245,-24,-3
-Air Jordan 4 Retro LS 'Oreo' 2015,175,158,188,-17,13
-Air Jordan 1 Retro High OG Prm 'Yin Yang',85,82,86,-3,1
-Ruohan Wang x Air Max 90 Flyleather,109,105,115,-4,6
-Wmns Air Max 270,94,69,80,-25,-14
-Air Jordan 1 Retro High OG 'Guava Ice',154,167,173,13,19
-Air Jordan 12 Retro GS 'University Gold',115,131,146,16,31
-Air Jordan 12 Retro 'FIBA',205,321,341,116,136
-Sacai x VaporWaffle 'Sail',672,692,720,20,48
-Gucci Ace 'Fake/Not Print',680,741,833,61,153
-Off-White x Chuck 70 'White',490,530,551,40,61
-Air Jordan 1 High Zoom 'Crater',159,132,149,-27,-10
-Air Jordan 1 Retro High OG 'Clay Green',200,205,290,5,90
-Yeezy Boost 700 V2 'Tephra',353,344,408,-9,55
-Off-White x Air Jordan 1 Retro High OG 'White'...,2498,2513,2586,15,88
-Air Foamposite Pro 'Halloween',297,376,407,79,110
-Air Jordan 3 Retro 'Knicks',100,139,192,39,92
-Air Jordan 1 Retro High OG 'Black Toe' 2016,575,578,621,3,46
-Air Jordan 1 Low GS 'Light Smoke Grey',159,164,206,5,47
-Yeezy Boost 380 'Alien',393,418,476,25,83
-Air Jordan 6 Retro 'UNC',210,250,322,40,112
-Yeezy Slides 'Desert Sand',279,359,432,80,153
+Air Jordan 11 Retro GS 'Bred' 2019,210,191,182,-28,-19
+Pharrell x NMD Human Race 'Light Grey Teal',300,424,330,30,124
+KAWS x Air Jordan 4 Retro 'Cool Grey',2547,2597,2524,-23,50
+Aimé Leon Dore x 550 'Evergreen',350,386,330,-20,36
+Union LA x Chuck Taylor All Star High 'White',97,124,52,-45,27
+Zoom Kobe 5 Protro '5x Champ',199,223,176,-23,24
+Kamikaze 2 Mid Retro 'Sonics' 2020,148,246,224,76,98
+Air Jordan 1 Low 'Smoke Grey',116,361,132,16,245
+Wmns Air Jordan 1 Mid 'Digital Pink',368,579,484,116,211
+Wmns Air Force 1 'Pixel White',139,307,276,137,168
+Grateful Dead x Dunk Low SB 'Yellow Bear',980,1047,1045,65,67
+Air Jordan 1 Retro High OG GS 'Smoke Grey',249,253,252,3,4
+Air Jordan 4 Retro 'Motorsports',330,403,368,38,73
+Air Jordan 3 Retro 'Court Purple',979,1017,994,15,38
+Yeezy Boost 700 V2 'Vanta',475,515,503,28,40
+Wmns Air Jordan 1 Mid SE 'Multi Patent',145,180,161,16,35
+Air Jordan 11 Retro 'Win Like '82',300,428,389,89,128
+Wmns Air Jordan 1 Mid SE 'Iridescent Trim',248,245,224,-24,-3
+Air Jordan 4 Retro LS 'Oreo' 2015,175,188,158,-17,13
+Air Jordan 1 Retro High OG Prm 'Yin Yang',85,86,82,-3,1
+Ruohan Wang x Air Max 90 Flyleather,109,115,105,-4,6
+Wmns Air Max 270,94,80,69,-25,-14
+Air Jordan 1 Retro High OG 'Guava Ice',154,173,167,13,19
+Air Jordan 12 Retro GS 'University Gold',115,146,131,16,31
+Air Jordan 12 Retro 'FIBA',205,341,321,116,136
+Sacai x VaporWaffle 'Sail',672,720,692,20,48
+Gucci Ace 'Fake/Not Print',680,833,741,61,153
+Off-White x Chuck 70 'White',490,551,530,40,61
+Air Jordan 1 High Zoom 'Crater',159,149,132,-27,-10
+Air Jordan 1 Retro High OG 'Clay Green',200,290,205,5,90
+Yeezy Boost 700 V2 'Tephra',353,408,344,-9,55
+Off-White x Air Jordan 1 Retro High OG 'White'...,2498,2586,2513,15,88
+Air Foamposite Pro 'Halloween',297,407,376,79,110
+Air Jordan 3 Retro 'Knicks',100,192,139,39,92
+Air Jordan 1 Retro High OG 'Black Toe' 2016,575,621,578,3,46
+Air Jordan 1 Low GS 'Light Smoke Grey',159,206,164,5,47
+Yeezy Boost 380 'Alien',393,476,418,25,83
+Air Jordan 6 Retro 'UNC',210,322,250,40,112
+Yeezy Slides 'Desert Sand',279,432,359,80,153
 Wmns Air VaporMax Flyknit 3 'Triple Black',149,111,111,-38,-38
 Air Force 1 '07 'Black',84,84,84,0,0
-Medicom Toy x Dunk Low SB 'BE@RBRICK',280,411,417,131,137
-Air VaporMax 3.0 'Snakeskin',149,190,202,41,53
-Wmns Air Jordan 1 High Zoom 'Halloween',215,178,214,-37,-1
-Air VaporMax Plus 'White Platinum',169,189,269,20,100
-Air Jordan 1 Retro High OG 'Black/White',685,654,664,-31,-21
-Kamikaze 2 OG Retro 'Black White' 2020,110,189,191,79,81
-Air Jordan 1 Low SE GS 'Laser Blue',90,77,100,-13,10
-Air Jordan 1 Low 'Pine Green',130,124,125,-6,-5
-Yeezy Slides Kids 'Bone',164,204,221,40,57
-Air Force 1 Low 'Wheat Mocha',122,101,176,-21,54
-Air Fear of God 1 'Triple Black',449,457,463,8,14
-Supreme x Air Force 1 Low 'Box Logo - Black',183,149,152,-34,-31
-Yeezy Season 7 Desert Boot 'House Wakame',211,194,220,-17,9
+Medicom Toy x Dunk Low SB 'BE@RBRICK',280,417,411,131,137
+Air VaporMax 3.0 'Snakeskin',149,202,190,41,53
+Wmns Air Jordan 1 High Zoom 'Halloween',215,214,178,-37,-1
+Air VaporMax Plus 'White Platinum',169,269,189,20,100
+Air Jordan 1 Retro High OG 'Black/White',685,664,654,-31,-21
+Kamikaze 2 OG Retro 'Black White' 2020,110,191,189,79,81
+Air Jordan 1 Low SE GS 'Laser Blue',90,100,77,-13,10
+Air Jordan 1 Low 'Pine Green',130,125,124,-6,-5
+Yeezy Slides Kids 'Bone',164,221,204,40,57
+Air Force 1 Low 'Wheat Mocha',122,176,101,-21,54
+Air Fear of God 1 'Triple Black',449,463,457,8,14
+Supreme x Air Force 1 Low 'Box Logo - Black',183,152,149,-34,-31
+Yeezy Season 7 Desert Boot 'House Wakame',211,220,194,-17,9
 Yeezy Boost 350 V2 GID 'Glow',400,393,393,-7,-7
-Air Jordan 1 Low 'Court Purple',175,282,301,107,126
-Air Jordan 1 Retro High OG 'Blue Moon',229,245,289,16,60
-Wmns Air Force 1 Shadow 'Washed Coral',136,87,140,-49,4
-Air Jordan 11 Retro 'Cap and Gown',400,371,401,-29,1
-Off-White x Wmns Vapor Street 'Tour Yellow',134,122,179,-12,45
-Air Jordan 5 Retro 'Red Suede',175,231,240,56,65
-Yeezy Boost 350 V2 'Cinder Reflective',540,530,568,-10,28
-Alexander McQueen Oversized Sneaker 'White Black',440,440,458,0,18
-Yeezy 500 'Blush',340,387,408,47,68
-Aimé Leon Dore x 550 'Navy',272,379,383,107,111
-Air Max 97 'Reflective Bred',150,126,144,-24,-6
-Off-White x Wmns Waffle Racer 'Vivid Sky',149,196,212,47,63
-Yeezy Boost 700 MNVN 'Bone',360,356,365,-4,5
-Yeezy Boost 350 V2 'Red',760,777,782,17,22
-Air Jordan 1 Retro High OG NRG 'Homage to Home',420,557,632,137,212
-Air Jordan 1 Retro High OG BG 'Bloodline',332,415,435,83,103
-Undefeated x Zoom Kobe 5 Protro 'What If Pack'...,500,536,562,36,62
-Pharrell x NMD Human Race Trail PRD 'Infinite ...,237,225,430,-12,193
-Air Force 1 '07 AN20 'White Black',99,125,132,26,33
-Air VaporMax Flyknit 3 'Pure Platinum',115,84,195,-31,80
-Dunk Low Pro SB 'Paris',30000,29979,29988,-21,-12
-Off-White x Zoom Fly SP 'Black',325,339,433,14,108
-Air Jordan 4 Retro 'Green Metallic',300,276,332,-24,32
-Yeezy Boost 350 V2 'Synth Non-Reflective',290,457,482,167,192
-Air Jordan 1 Mid 'Swoosh Logo - Grey Camo',138,269,439,131,301
-Yeezy Boost 350 V2 'Static Reflective',400,469,554,69,154
-Air Jordan 11 Retro '72-10',335,356,392,21,57
-Air Jordan 11 Retro 'Bred' 2012,415,458,496,43,81
-Air Max 1 'Grey White',85,144,183,59,98
-Air Jordan 8 Retro 'Take Flight',150,160,164,10,14
-Air Jordan 1 Retro High OG GS 'Court Purple 2.0',325,371,377,46,52
-Air Force 1 '07 LV8 'Worldwide Pack - Glacier ...,142,125,173,-17,31
-Air Jordan 4 Retro NRG 'Raptors - Drake Signature',318,328,355,10,37
-Air Jordan 12 Retro 'Dark Grey',225,234,246,9,21
-Wmns Air Jordan 1 Mid Patent SE 'Triple Black',93,88,261,-5,168
-Travis Scott x Dunk Low PRM SB QS 'Cactus Jack...,1700,1854,1872,154,172
-Air Jordan 1 GS 'Día de Muertos',245,237,364,-8,119
-Sacai x LDWaffle 'Varsity Blue',600,577,611,-23,11
-Bodega x 997S 'Better Days',198,412,450,214,252
-Air Jordan 12 Retro 'Gym Red',169,161,297,-8,128
-Wmns Air Jordan 4 Retro 'Mushroom',295,309,338,14,43
-Off-White x Wmns Vapor Street 'Polarized Blue',145,121,200,-24,55
-Wmns Air Jordan 1 High 'Mushroom',315,357,378,42,63
-Off-White x Zoom Fly SP 'Tulip Pink',345,337,341,-8,-4
-Zoom Kobe 5 Protro 'DeMar DeRozan' PE,210,205,207,-5,-3
-Blue The Great x Air Jordan 1 Mid 'Fearless',215,267,275,52,60
-Air Jordan 1 Retro High OG BG 'Bred Toe',578,570,642,-8,64
-Yeezy Boost 700 V2 'Inertia',350,327,349,-23,-1
-Air Jordan 5 Retro GS 'Pink Foam',120,241,272,121,152
+Air Jordan 1 Low 'Court Purple',175,301,282,107,126
+Air Jordan 1 Retro High OG 'Blue Moon',229,289,245,16,60
+Wmns Air Force 1 Shadow 'Washed Coral',136,140,87,-49,4
+Air Jordan 11 Retro 'Cap and Gown',400,401,371,-29,1
+Off-White x Wmns Vapor Street 'Tour Yellow',134,179,122,-12,45
+Air Jordan 5 Retro 'Red Suede',175,240,231,56,65
+Yeezy Boost 350 V2 'Cinder Reflective',540,568,530,-10,28
+Alexander McQueen Oversized Sneaker 'White Black',440,458,440,0,18
+Yeezy 500 'Blush',340,408,387,47,68
+Aimé Leon Dore x 550 'Navy',272,383,379,107,111
+Air Max 97 'Reflective Bred',150,144,126,-24,-6
+Off-White x Wmns Waffle Racer 'Vivid Sky',149,212,196,47,63
+Yeezy Boost 700 MNVN 'Bone',360,365,356,-4,5
+Yeezy Boost 350 V2 'Red',760,782,777,17,22
+Air Jordan 1 Retro High OG NRG 'Homage to Home',420,632,557,137,212
+Air Jordan 1 Retro High OG BG 'Bloodline',332,435,415,83,103
+Undefeated x Zoom Kobe 5 Protro 'What If Pack'...,500,562,536,36,62
+Pharrell x NMD Human Race Trail PRD 'Infinite ...,237,430,225,-12,193
+Air Force 1 '07 AN20 'White Black',99,132,125,26,33
+Air VaporMax Flyknit 3 'Pure Platinum',115,195,84,-31,80
+Dunk Low Pro SB 'Paris',30000,29988,29979,-21,-12
+Off-White x Zoom Fly SP 'Black',325,433,339,14,108
+Air Jordan 4 Retro 'Green Metallic',300,332,276,-24,32
+Yeezy Boost 350 V2 'Synth Non-Reflective',290,482,457,167,192
+Air Jordan 1 Mid 'Swoosh Logo - Grey Camo',138,439,269,131,301
+Yeezy Boost 350 V2 'Static Reflective',400,554,469,69,154
+Air Jordan 11 Retro '72-10',335,392,356,21,57
+Air Jordan 11 Retro 'Bred' 2012,415,496,458,43,81
+Air Max 1 'Grey White',85,183,144,59,98
+Air Jordan 8 Retro 'Take Flight',150,164,160,10,14
+Air Jordan 1 Retro High OG GS 'Court Purple 2.0',325,377,371,46,52
+Air Force 1 '07 LV8 'Worldwide Pack - Glacier ...,142,173,125,-17,31
+Air Jordan 4 Retro NRG 'Raptors - Drake Signature',318,355,328,10,37
+Air Jordan 12 Retro 'Dark Grey',225,246,234,9,21
+Wmns Air Jordan 1 Mid Patent SE 'Triple Black',93,261,88,-5,168
+Travis Scott x Dunk Low PRM SB QS 'Cactus Jack...,1700,1872,1854,154,172
+Air Jordan 1 GS 'Día de Muertos',245,364,237,-8,119
+Sacai x LDWaffle 'Varsity Blue',600,611,577,-23,11
+Bodega x 997S 'Better Days',198,450,412,214,252
+Air Jordan 12 Retro 'Gym Red',169,297,161,-8,128
+Wmns Air Jordan 4 Retro 'Mushroom',295,338,309,14,43
+Off-White x Wmns Vapor Street 'Polarized Blue',145,200,121,-24,55
+Wmns Air Jordan 1 High 'Mushroom',315,378,357,42,63
+Off-White x Zoom Fly SP 'Tulip Pink',345,341,337,-8,-4
+Zoom Kobe 5 Protro 'DeMar DeRozan' PE,210,207,205,-5,-3
+Blue The Great x Air Jordan 1 Mid 'Fearless',215,275,267,52,60
+Air Jordan 1 Retro High OG BG 'Bred Toe',578,642,570,-8,64
+Yeezy Boost 700 V2 'Inertia',350,349,327,-23,-1
+Air Jordan 5 Retro GS 'Pink Foam',120,272,241,121,152
 Wmns Blazer Mid 77 Vintage 'White Black',96,66,66,-30,-30
-Sacai x LDWaffle 'Summit White',497,472,576,-25,79
-Wmns Air Force 1 Low LX 'Reveal',150,209,228,59,78
-Wmns Air Jordan 1 Mid 'UNC',216,199,214,-17,-2
-6 Inch Premium Waterproof Boot 'Wheat',120,99,128,-21,8
-Air Jordan 12 Retro 'Reverse Taxi',235,230,512,-5,277
-Air Jordan 3 Retro Tinker 'Air Max 1',160,142,144,-18,-16
-Air Jordan 3 Retro 'Mocha' 2018,300,325,349,25,49
-Air Jordan 1 Mid GS 'Pink Quartz',219,294,459,75,240
-Pharrell x NMD Human Race 'Inspiration Pack',180,136,164,-44,-16
-Dior B23 High 'Dior Oblique',1100,1088,1090,-12,-10
-Air Jordan 1 Retro High OG 'Los Angeles' 2015,175,165,210,-10,35
-Wmns Air Jordan 4 Retro 'Rasta',225,224,339,-1,114
-Yeezy Boost 350 V2 Kids 'Carbon',200,193,212,-7,12
-Air Jordan 1 Low 'Royal Toe',150,157,158,7,8
-Air Jordan 14 Retro 'Reverse Ferrari',99,154,160,55,61
-Air Jordan 1 Mid SE GS 'Edge Glow',117,90,105,-27,-12
-Air Jordan 1 Retro High OG GS 'Turbo Green',464,459,491,-5,27
-Air Jordan 11 Retro Low 'Bred',360,379,432,19,72
-Yeezy Boost 350 V2 'True Form',330,362,439,32,109
-Air Jordan 4 Retro 'Fire Red' 2012,300,348,438,48,138
-Air Max Plus 'Triple Black',145,114,117,-31,-28
-Studio FY7 x 992 'Cream',600,595,628,-5,28
-Air Jordan 4 Retro 'Bred' 2012,397,419,444,22,47
-Air Jordan 1 Mid SE 'Yellow Toe',195,165,170,-30,-25
-Wmns Air Jordan 6 Retro 'Tech Chrome',140,159,198,19,58
-Air Max 90 'Hyper Royal',80,58,98,-22,18
-Travis Scott x Air Jordan 1 Retro High OG 'Moc...,2153,2220,2233,67,80
-Yeezy Boost 380 'Onyx Non-Reflective',1124,1169,1280,45,156
-"Tyler, The Creator x Foot Locker x Chuck 70 'A...",86,110,181,24,95
-Melody Ehsani x Wmns Air Jordan 1 Mid 'Fearless',995,996,1076,1,81
-Denham x Air Max 90 'Infrared',130,201,247,71,117
-Air Max 97 'Black Terry Cloth',109,64,136,-45,27
-Air Jordan 1 Mid GS 'White Shadow',150,148,207,-2,57
-Sacai x LDWaffle 'Black',570,547,654,-23,84
-Air Jordan 1 Retro High OG 'Storm Blue',325,333,450,8,125
-Sacai x VaporWaffle 'Black White',614,582,618,-32,4
-Air Jordan 11 Retro 'Platinum Tint',270,363,520,93,250
-Dunk Low Retro Vol. 1 SP 'Plum',420,397,416,-23,-4
-Yeezy Boost 700 'Carbon Blue',300,269,274,-31,-26
-Air Force 1 '07 Premium 'Zip Swoosh - White',135,112,172,-23,37
-Air Jordan 1 Low GS 'Smoke Grey',178,162,180,-16,2
-Yeezy Boost 700 'Magnet',420,420,467,0,47
-Air Jordan 13 Retro 'Lakers',145,170,236,25,91
+Sacai x LDWaffle 'Summit White',497,576,472,-25,79
+Wmns Air Force 1 Low LX 'Reveal',150,228,209,59,78
+Wmns Air Jordan 1 Mid 'UNC',216,214,199,-17,-2
+6 Inch Premium Waterproof Boot 'Wheat',120,128,99,-21,8
+Air Jordan 12 Retro 'Reverse Taxi',235,512,230,-5,277
+Air Jordan 3 Retro Tinker 'Air Max 1',160,144,142,-18,-16
+Air Jordan 3 Retro 'Mocha' 2018,300,349,325,25,49
+Air Jordan 1 Mid GS 'Pink Quartz',219,459,294,75,240
+Pharrell x NMD Human Race 'Inspiration Pack',180,164,136,-44,-16
+Dior B23 High 'Dior Oblique',1100,1090,1088,-12,-10
+Air Jordan 1 Retro High OG 'Los Angeles' 2015,175,210,165,-10,35
+Wmns Air Jordan 4 Retro 'Rasta',225,339,224,-1,114
+Yeezy Boost 350 V2 Kids 'Carbon',200,212,193,-7,12
+Air Jordan 1 Low 'Royal Toe',150,158,157,7,8
+Air Jordan 14 Retro 'Reverse Ferrari',99,160,154,55,61
+Air Jordan 1 Mid SE GS 'Edge Glow',117,105,90,-27,-12
+Air Jordan 1 Retro High OG GS 'Turbo Green',464,491,459,-5,27
+Air Jordan 11 Retro Low 'Bred',360,432,379,19,72
+Yeezy Boost 350 V2 'True Form',330,439,362,32,109
+Air Jordan 4 Retro 'Fire Red' 2012,300,438,348,48,138
+Air Max Plus 'Triple Black',145,117,114,-31,-28
+Studio FY7 x 992 'Cream',600,628,595,-5,28
+Air Jordan 4 Retro 'Bred' 2012,397,444,419,22,47
+Air Jordan 1 Mid SE 'Yellow Toe',195,170,165,-30,-25
+Wmns Air Jordan 6 Retro 'Tech Chrome',140,198,159,19,58
+Air Max 90 'Hyper Royal',80,98,58,-22,18
+Travis Scott x Air Jordan 1 Retro High OG 'Moc...,2153,2233,2220,67,80
+Yeezy Boost 380 'Onyx Non-Reflective',1124,1280,1169,45,156
+"Tyler, The Creator x Foot Locker x Chuck 70 'A...",86,181,110,24,95
+Melody Ehsani x Wmns Air Jordan 1 Mid 'Fearless',995,1076,996,1,81
+Denham x Air Max 90 'Infrared',130,247,201,71,117
+Air Max 97 'Black Terry Cloth',109,136,64,-45,27
+Air Jordan 1 Mid GS 'White Shadow',150,207,148,-2,57
+Sacai x LDWaffle 'Black',570,654,547,-23,84
+Air Jordan 1 Retro High OG 'Storm Blue',325,450,333,8,125
+Sacai x VaporWaffle 'Black White',614,618,582,-32,4
+Air Jordan 11 Retro 'Platinum Tint',270,520,363,93,250
+Dunk Low Retro Vol. 1 SP 'Plum',420,416,397,-23,-4
+Yeezy Boost 700 'Carbon Blue',300,274,269,-31,-26
+Air Force 1 '07 Premium 'Zip Swoosh - White',135,172,112,-23,37
+Air Jordan 1 Low GS 'Smoke Grey',178,180,162,-16,2
+Yeezy Boost 700 'Magnet',420,467,420,0,47
+Air Jordan 13 Retro 'Lakers',145,236,170,25,91
 Sean Wotherspoon x Atmos x Gel Lyte 3 'Corduroy',300,278,278,-22,-22
-Air Jordan 13 Retro 'Bred' 2017,210,214,288,4,78
-Yeezy Powerphase Calabasas 'Grey',90,62,173,-28,83
-Off-White x Air Presto 'The Ten',2144,2154,2181,10,37
-Olivia Kim x Wmns Air Jordan 4 Retro 'No Cover',230,225,247,-5,17
-Blazer Mid 77 'Sketch - Black',92,112,137,20,45
-Air Jordan 1 Retro High OG 'Defiant',165,184,213,19,48
-Zoom Kobe 5 Protro 'EYBL',230,218,298,-12,68
-Air Jordan 12 Retro 'The Master',300,304,387,4,87
-Air Force 1 Low '07 LV8 'Split',663,667,680,4,17
-Grateful Dead x Dunk Low SB 'Green Bear',900,922,924,22,24
-Air Max 1 Premium 'Limeade',95,73,95,-22,0
-Wmns Air VaporMax Flyknit 3 'Oreo',100,113,223,13,123
-Yeezy Boost 700 V2 'Static',675,683,705,8,30
-Yeezy Season 7 Desert Boot 'Taupe',250,248,337,-2,87
-Adapt BB 'Nike Mag',560,588,798,28,238
-Air Jordan 14 Retro 'Candy Cane' 2019,140,133,162,-7,22
-Air Jordan 1 Low 'Paris',360,412,427,52,67
-Air Max 90 'Mountaineering',101,83,194,-18,93
-992 'Grey',250,225,226,-25,-24
-Air Jordan 1 Mid 'Obsidian',119,100,149,-19,30
-Eric Koston x Air Jordan 1 Low SB 'Powder Blue',389,356,377,-33,-12
-OVO x Air Jordan 8 Retro Promo 'Kentucky Madness',8050,8072,8229,22,179
-Wmns Air Jordan 4 Retro NRG 'Singles Day',145,131,186,-14,41
-Sacai x LDWaffle 'Pine Green',445,416,429,-29,-16
-Air Jordan 1 High 'Chicago' 1985,1000,1079,1157,79,157
-Air Jordan 3 Retro SE 'Animal Instinct',165,144,164,-21,-1
-Air Jordan 1 Retro High '85 'Varsity Red',560,553,560,-7,0
-Stussy x Air Zoom Spiridon Kukini 'White',160,162,175,2,15
-Yeezy Desert Boot 'Oil',240,271,320,31,80
-Luka Doncic x Air Jordan 1 Mid SE 'Pregame Pac...,174,296,410,122,236
-Wmns Air Jordan 1 Mid 'Cactus Flower',136,124,201,-12,65
-Air Max 97 'Vintage Mosaic',144,199,287,55,143
+Air Jordan 13 Retro 'Bred' 2017,210,288,214,4,78
+Yeezy Powerphase Calabasas 'Grey',90,173,62,-28,83
+Off-White x Air Presto 'The Ten',2144,2181,2154,10,37
+Olivia Kim x Wmns Air Jordan 4 Retro 'No Cover',230,247,225,-5,17
+Blazer Mid 77 'Sketch - Black',92,137,112,20,45
+Air Jordan 1 Retro High OG 'Defiant',165,213,184,19,48
+Zoom Kobe 5 Protro 'EYBL',230,298,218,-12,68
+Air Jordan 12 Retro 'The Master',300,387,304,4,87
+Air Force 1 Low '07 LV8 'Split',663,680,667,4,17
+Grateful Dead x Dunk Low SB 'Green Bear',900,924,922,22,24
+Air Max 1 Premium 'Limeade',95,95,73,-22,0
+Wmns Air VaporMax Flyknit 3 'Oreo',100,223,113,13,123
+Yeezy Boost 700 V2 'Static',675,705,683,8,30
+Yeezy Season 7 Desert Boot 'Taupe',250,337,248,-2,87
+Adapt BB 'Nike Mag',560,798,588,28,238
+Air Jordan 14 Retro 'Candy Cane' 2019,140,162,133,-7,22
+Air Jordan 1 Low 'Paris',360,427,412,52,67
+Air Max 90 'Mountaineering',101,194,83,-18,93
+992 'Grey',250,226,225,-25,-24
+Air Jordan 1 Mid 'Obsidian',119,149,100,-19,30
+Eric Koston x Air Jordan 1 Low SB 'Powder Blue',389,377,356,-33,-12
+OVO x Air Jordan 8 Retro Promo 'Kentucky Madness',8050,8229,8072,22,179
+Wmns Air Jordan 4 Retro NRG 'Singles Day',145,186,131,-14,41
+Sacai x LDWaffle 'Pine Green',445,429,416,-29,-16
+Air Jordan 1 High 'Chicago' 1985,1000,1157,1079,79,157
+Air Jordan 3 Retro SE 'Animal Instinct',165,164,144,-21,-1
+Air Jordan 1 Retro High '85 'Varsity Red',560,560,553,-7,0
+Stussy x Air Zoom Spiridon Kukini 'White',160,175,162,2,15
+Yeezy Desert Boot 'Oil',240,320,271,31,80
+Luka Doncic x Air Jordan 1 Mid SE 'Pregame Pac...,174,410,296,122,236
+Wmns Air Jordan 1 Mid 'Cactus Flower',136,201,124,-12,65
+Air Max 97 'Vintage Mosaic',144,287,199,55,143
 Air Jordan 13 Retro 'Hyper Royal',590,635,635,45,45
-Air Jordan 5 Retro GS 'Satin',139,140,155,1,16
-Air Max 1 'Evergreen',162,361,450,199,288
-Wmns Air Force 1 Shadow 'White Magic Flamingo',75,58,67,-17,-8
-Air Jordan 4 Retro 'Thunder' 2012,449,589,596,140,147
-LeBron 18 'James Gang',164,272,296,108,132
-Travis Scott x Air Force 1 Low PS 'Cactus Jack',180,194,218,14,38
-Air Jordan 11 Retro Low 'Concord',375,426,510,51,135
+Air Jordan 5 Retro GS 'Satin',139,155,140,1,16
+Air Max 1 'Evergreen',162,450,361,199,288
+Wmns Air Force 1 Shadow 'White Magic Flamingo',75,67,58,-17,-8
+Air Jordan 4 Retro 'Thunder' 2012,449,596,589,140,147
+LeBron 18 'James Gang',164,296,272,108,132
+Travis Scott x Air Force 1 Low PS 'Cactus Jack',180,218,194,14,38
+Air Jordan 11 Retro Low 'Concord',375,510,426,51,135
 HUMAN MADE x Pharrell x NMD Hu 'Love',250,227,227,-23,-23
-Air Jordan 4 Retro 'Royalty',375,361,365,-14,-10
-Air Jordan Future 'Hyper Royal',65,70,74,5,9
-Kobe A.D. NXT 360 'White Multicolor',149,176,207,27,58
-Air Jordan 1 Retro High OG 'A Star Is Born',145,158,181,13,36
-Off-White x Air VaporMax 'The Ten',1190,1205,1276,15,86
-Air Jordan 6 Retro 'Maroon' 2015,225,263,308,38,83
-Air Force 1 '07 LV8 'Added Air',87,121,173,34,86
-Air Jordan 4 Retro PS 'Pale Citron',58,131,158,73,100
-Off-White Vulc Low Top 'Black',199,194,258,-5,59
-Yeezy Boost 700 'Salt',329,335,403,6,74
-Air Max 97 'White Ice',100,104,180,4,80
-Yeezy Basketball 'Quantum',699,741,767,42,68
-Off-White x Air Force 1 '07 'Extra Credit',2250,2246,2254,-4,4
-Off-White x Air Force 1 Low 'The Ten',2124,2106,2108,-18,-16
-Air Jordan 1 Retro High 'White Elephant',85,94,112,9,27
-Air Force 1 Low '07 PRM 'Just Do It',320,374,375,54,55
-Air Force 1 React QS 'White Ice',249,276,358,27,109
-atmos x Air Max Zoom 950 NRG 'Japan',199,165,168,-34,-31
-Blazer Mid 77 'Light Bone',70,123,150,53,80
-Off-White x Air Force 1 'ComplexCon Exclusive',4264,4428,4449,164,185
-Air Jordan 14 Retro SE 'Black Ferrari',166,198,214,32,48
-Air Jordan 1 Low SE 'Fuchsia',76,80,129,4,53
-Air Jordan 12 Retro 'French Blue' 2016,250,220,224,-30,-26
-Yeezy Boost 350 'Pirate Black' 2016,740,712,719,-28,-21
-Maison Chateau Rouge x Air Jordan 1 Mid SE 'Fe...,500,527,698,27,198
-Paris Saint-Germain x Air Jordan 5 Retro 'Pari...,309,266,325,-43,16
-Wmns Air Jordan 1 Mid 'Barely Orange',169,201,370,32,201
+Air Jordan 4 Retro 'Royalty',375,365,361,-14,-10
+Air Jordan Future 'Hyper Royal',65,74,70,5,9
+Kobe A.D. NXT 360 'White Multicolor',149,207,176,27,58
+Air Jordan 1 Retro High OG 'A Star Is Born',145,181,158,13,36
+Off-White x Air VaporMax 'The Ten',1190,1276,1205,15,86
+Air Jordan 6 Retro 'Maroon' 2015,225,308,263,38,83
+Air Force 1 '07 LV8 'Added Air',87,173,121,34,86
+Air Jordan 4 Retro PS 'Pale Citron',58,158,131,73,100
+Off-White Vulc Low Top 'Black',199,258,194,-5,59
+Yeezy Boost 700 'Salt',329,403,335,6,74
+Air Max 97 'White Ice',100,180,104,4,80
+Yeezy Basketball 'Quantum',699,767,741,42,68
+Off-White x Air Force 1 '07 'Extra Credit',2250,2254,2246,-4,4
+Off-White x Air Force 1 Low 'The Ten',2124,2108,2106,-18,-16
+Air Jordan 1 Retro High 'White Elephant',85,112,94,9,27
+Air Force 1 Low '07 PRM 'Just Do It',320,375,374,54,55
+Air Force 1 React QS 'White Ice',249,358,276,27,109
+atmos x Air Max Zoom 950 NRG 'Japan',199,168,165,-34,-31
+Blazer Mid 77 'Light Bone',70,150,123,53,80
+Off-White x Air Force 1 'ComplexCon Exclusive',4264,4449,4428,164,185
+Air Jordan 14 Retro SE 'Black Ferrari',166,214,198,32,48
+Air Jordan 1 Low SE 'Fuchsia',76,129,80,4,53
+Air Jordan 12 Retro 'French Blue' 2016,250,224,220,-30,-26
+Yeezy Boost 350 'Pirate Black' 2016,740,719,712,-28,-21
+Maison Chateau Rouge x Air Jordan 1 Mid SE 'Fe...,500,698,527,27,198
+Paris Saint-Germain x Air Jordan 5 Retro 'Pari...,309,325,266,-43,16
+Wmns Air Jordan 1 Mid 'Barely Orange',169,370,201,32,201
 Off-White x Air Jordan 5 Retro SP PS 'Muslin',399,351,351,-48,-48
-Air Max 1 OG 'Anniversary' 2017 Rerelease,215,234,325,19,110
-Fragment Design x Air Jordan 1 Retro High OG,3204,3334,3337,130,133
-Wmns Air Jordan 11 Retro Low 'Pink Snakeskin',189,355,364,166,175
-Sean Wotherspoon x Superstar 'Super Earth',168,157,158,-11,-10
-Atlas x Dunk High SB 'Lost At Sea',420,419,646,-1,226
-Dunk Low Pro SB 'Laser Orange',320,314,318,-6,-2
-Ruohan Wang x Blazer Mid ’77 Flyleather,110,138,161,28,51
-Yeezy Slides 'Resin',194,179,186,-15,-8
-Civilist x Dunk Low Pro SB QS 'Thermography',919,1019,1062,100,143
-Off-White x Blazer Mid 'The Ten',1499,1502,1566,3,67
-Air Max 90 SP 'Reverse Duck Camo',130,218,290,88,160
-Travis Scott x Air Force 1 'Travis Scott',998,1028,1031,30,33
-Ghostbusters x Ghost Smashers 'Ecto-1 Vibes',198,161,168,-37,-30
-Yeezy Boost 350 V2 'Hyperspace',425,431,439,6,14
-Travis Scott x Air Jordan 4 Retro 'Cactus Jack...,9750,9820,9841,70,91
-Yeezy Boost 350 V2 'Copper',630,620,629,-10,-1
-Wmns Air VaporMax 2020 Flyknit 'Light Arctic Pink',209,247,303,38,94
-Comme des Garçons Play x Chuck 70 Hi Top 'Mult...,115,88,90,-27,-25
-Air Jordan 1 Retro High OG NRG 'Gold Toe',400,539,621,139,221
-Off-White x Air Max 97 'Black',785,823,891,38,106
-Air Force 1 Low 'Rucker Park',110,186,298,76,188
-Alexander McQueen Oversized Sneaker 'All Black',478,456,474,-22,-4
-Air Jordan 4 Retro 'Oregon',9950,9959,9998,9,48
-Air VaporMax Plus 'Triple Red',155,175,214,20,59
-Sacai x Blazer Mid 'White Grey',200,257,310,57,110
-Air Jordan 1 Low SE 'Laser Blue',125,112,293,-13,168
-Air Jordan 1 Mid SE 'Oakland',115,139,140,24,25
+Air Max 1 OG 'Anniversary' 2017 Rerelease,215,325,234,19,110
+Fragment Design x Air Jordan 1 Retro High OG,3204,3337,3334,130,133
+Wmns Air Jordan 11 Retro Low 'Pink Snakeskin',189,364,355,166,175
+Sean Wotherspoon x Superstar 'Super Earth',168,158,157,-11,-10
+Atlas x Dunk High SB 'Lost At Sea',420,646,419,-1,226
+Dunk Low Pro SB 'Laser Orange',320,318,314,-6,-2
+Ruohan Wang x Blazer Mid ’77 Flyleather,110,161,138,28,51
+Yeezy Slides 'Resin',194,186,179,-15,-8
+Civilist x Dunk Low Pro SB QS 'Thermography',919,1062,1019,100,143
+Off-White x Blazer Mid 'The Ten',1499,1566,1502,3,67
+Air Max 90 SP 'Reverse Duck Camo',130,290,218,88,160
+Travis Scott x Air Force 1 'Travis Scott',998,1031,1028,30,33
+Ghostbusters x Ghost Smashers 'Ecto-1 Vibes',198,168,161,-37,-30
+Yeezy Boost 350 V2 'Hyperspace',425,439,431,6,14
+Travis Scott x Air Jordan 4 Retro 'Cactus Jack...,9750,9841,9820,70,91
+Yeezy Boost 350 V2 'Copper',630,629,620,-10,-1
+Wmns Air VaporMax 2020 Flyknit 'Light Arctic Pink',209,303,247,38,94
+Comme des Garçons Play x Chuck 70 Hi Top 'Mult...,115,90,88,-27,-25
+Air Jordan 1 Retro High OG NRG 'Gold Toe',400,621,539,139,221
+Off-White x Air Max 97 'Black',785,891,823,38,106
+Air Force 1 Low 'Rucker Park',110,298,186,76,188
+Alexander McQueen Oversized Sneaker 'All Black',478,474,456,-22,-4
+Air Jordan 4 Retro 'Oregon',9950,9998,9959,9,48
+Air VaporMax Plus 'Triple Red',155,214,175,20,59
+Sacai x Blazer Mid 'White Grey',200,310,257,57,110
+Air Jordan 1 Low SE 'Laser Blue',125,293,112,-13,168
+Air Jordan 1 Mid SE 'Oakland',115,140,139,24,25
 Air Jordan 1 Low GS 'Game Royal',125,187,187,62,62
-Air Jordan 6 Retro 'Carmine' 2014,349,313,333,-36,-16
-Yeezy 500 'Soft Vision',381,470,476,89,95
-Air Jordan 13 Retro 'Starfish',1100,1086,1100,-14,0
-Air Jordan 5 Retro 'Grape' 2013,288,346,363,58,75
-Air Jordan 3 Retro Tinker SP 'Black Cement',114,166,201,52,87
-Air Jordan 1 Low GS 'Reverse Bred',88,153,203,65,115
-Ivy Park x Wmns UltraBoost 'Hi-Res Yellow',285,266,279,-19,-6
-Air Max CB 94 Retro 'Varsity Purple' 2020,234,340,411,106,177
-Air Jordan 4 Retro 'Military Blue' 2012,379,363,366,-16,-13
-A-Cold-Wall* x Chuck Taylor All Star Lugged Hi...,215,383,465,168,250
-Cactus Plant Flea Market x Air Force 1 Low Pre...,259,291,429,32,170
-Air Jordan 1 Retro High 'Chicago' 2013,755,715,768,-40,13
-Wmns Air Force 1 Low 'Tear Away',149,220,267,71,118
-SpongeBob SquarePants x Kyrie 5 'Squidward',100,89,146,-11,46
-Kybrid S2 'Pineapple',195,164,194,-31,-1
-Ultra 4D 'OG',173,158,159,-15,-14
-Air Jordan 11 Retro BG 'Space Jam' 2016,250,329,331,79,81
-Wmns Air Jordan 1 Low 'Spruce Aura',246,222,247,-24,1
-Air Jordan 4 Retro GS 'Linen',361,369,484,8,123
-React Element 87 'Anthracite',60,40,84,-20,24
-Off-White x Air Max 90 'The Ten',1699,1725,1833,26,134
-Dunk High Pro Premium SB 'Invert Celtics',240,223,233,-17,-7
-Wmns Air Jordan 1 Retro High OG 'Twist' Onenes...,714,700,836,-14,122
-UltraBoost 1.0 Retro 'Triple Black' 2020,133,140,231,7,98
-UltraBoost 2.0 'Triple White',120,128,231,8,111
-Yeezy 500 'Super Moon Yellow',249,281,288,32,39
-Balenciaga Wmns Speed 2 Trainer Knit 'Neon Pink',760,749,792,-11,32
-Air Jordan 1 Retro High 'Gold Medal',85,64,186,-21,101
-Air Jordan 4 Retro GS 'Cool Grey' 2019,217,197,214,-20,-3
-Balenciaga Triple S 'Fluorescent Green',850,843,850,-7,0
-Air Jordan 9 Retro 'UNC',175,164,205,-11,30
-Air Jordan 1 Retro High OG PS 'Satin Red',70,123,278,53,208
-Concepts x Dunk Low SB 'Purple Lobster',876,839,866,-37,-10
-Air Jordan 1 Low SE 'Nothing But Net',112,255,294,143,182
-Comme des Garçons x Air Force 1 Mid 'Triple Black',360,366,482,6,122
-Blazer Mid '77 Vintage 'Celestine Blue',100,95,110,-5,10
-Zoom Kobe 5 Protro 'Chaos' 2020,500,520,557,20,57
-Off-White x Air Jordan 5 Retro SP TD 'Sail',497,500,521,3,24
-Air Jordan 13 Retro PS 'Flint' 2020,75,120,153,45,78
-Air VaporMax 2019 'Ghost Black',100,72,131,-28,31
+Air Jordan 6 Retro 'Carmine' 2014,349,333,313,-36,-16
+Yeezy 500 'Soft Vision',381,476,470,89,95
+Air Jordan 13 Retro 'Starfish',1100,1100,1086,-14,0
+Air Jordan 5 Retro 'Grape' 2013,288,363,346,58,75
+Air Jordan 3 Retro Tinker SP 'Black Cement',114,201,166,52,87
+Air Jordan 1 Low GS 'Reverse Bred',88,203,153,65,115
+Ivy Park x Wmns UltraBoost 'Hi-Res Yellow',285,279,266,-19,-6
+Air Max CB 94 Retro 'Varsity Purple' 2020,234,411,340,106,177
+Air Jordan 4 Retro 'Military Blue' 2012,379,366,363,-16,-13
+A-Cold-Wall* x Chuck Taylor All Star Lugged Hi...,215,465,383,168,250
+Cactus Plant Flea Market x Air Force 1 Low Pre...,259,429,291,32,170
+Air Jordan 1 Retro High 'Chicago' 2013,755,768,715,-40,13
+Wmns Air Force 1 Low 'Tear Away',149,267,220,71,118
+SpongeBob SquarePants x Kyrie 5 'Squidward',100,146,89,-11,46
+Kybrid S2 'Pineapple',195,194,164,-31,-1
+Ultra 4D 'OG',173,159,158,-15,-14
+Air Jordan 11 Retro BG 'Space Jam' 2016,250,331,329,79,81
+Wmns Air Jordan 1 Low 'Spruce Aura',246,247,222,-24,1
+Air Jordan 4 Retro GS 'Linen',361,484,369,8,123
+React Element 87 'Anthracite',60,84,40,-20,24
+Off-White x Air Max 90 'The Ten',1699,1833,1725,26,134
+Dunk High Pro Premium SB 'Invert Celtics',240,233,223,-17,-7
+Wmns Air Jordan 1 Retro High OG 'Twist' Onenes...,714,836,700,-14,122
+UltraBoost 1.0 Retro 'Triple Black' 2020,133,231,140,7,98
+UltraBoost 2.0 'Triple White',120,231,128,8,111
+Yeezy 500 'Super Moon Yellow',249,288,281,32,39
+Balenciaga Wmns Speed 2 Trainer Knit 'Neon Pink',760,792,749,-11,32
+Air Jordan 1 Retro High 'Gold Medal',85,186,64,-21,101
+Air Jordan 4 Retro GS 'Cool Grey' 2019,217,214,197,-20,-3
+Balenciaga Triple S 'Fluorescent Green',850,850,843,-7,0
+Air Jordan 9 Retro 'UNC',175,205,164,-11,30
+Air Jordan 1 Retro High OG PS 'Satin Red',70,278,123,53,208
+Concepts x Dunk Low SB 'Purple Lobster',876,866,839,-37,-10
+Air Jordan 1 Low SE 'Nothing But Net',112,294,255,143,182
+Comme des Garçons x Air Force 1 Mid 'Triple Black',360,482,366,6,122
+Blazer Mid '77 Vintage 'Celestine Blue',100,110,95,-5,10
+Zoom Kobe 5 Protro 'Chaos' 2020,500,557,520,20,57
+Off-White x Air Jordan 5 Retro SP TD 'Sail',497,521,500,3,24
+Air Jordan 13 Retro PS 'Flint' 2020,75,153,120,45,78
+Air VaporMax 2019 'Ghost Black',100,131,72,-28,31
 Yeezy Powerphase Calabasas 'Core Black',58,51,51,-7,-7
-Kasina x Dunk Low 'Road Sign',1320,1334,1414,14,94
-Sacai x VaporWaffle SP 'String Villain Red',555,560,808,5,253
-Yeezy Desert Boot 'Salt',248,247,313,-1,65
-Air Jordan 5 Retro 'Olympic',135,186,211,51,76
-Air Jordan 12 Retro 'Wool',200,199,278,-1,78
-Air Jordan 1 Retro High OG 'Sail',100,106,180,6,80
-Fragment Design x Jordan Air Cadence SP 'Parti...,150,114,250,-36,100
-Air Jordan 11 Retro Low 'Cool Grey',250,366,494,116,244
+Kasina x Dunk Low 'Road Sign',1320,1414,1334,14,94
+Sacai x VaporWaffle SP 'String Villain Red',555,808,560,5,253
+Yeezy Desert Boot 'Salt',248,313,247,-1,65
+Air Jordan 5 Retro 'Olympic',135,211,186,51,76
+Air Jordan 12 Retro 'Wool',200,278,199,-1,78
+Air Jordan 1 Retro High OG 'Sail',100,180,106,6,80
+Fragment Design x Jordan Air Cadence SP 'Parti...,150,250,114,-36,100
+Air Jordan 11 Retro Low 'Cool Grey',250,494,366,116,244
