@@ -1,17 +1,17 @@
 public class Item {
-    //private int id;
+    private String name;
     private long weight;
     private long value;
 
-    public Item(long weight, long value) {
-        //this.id = id;
+    public Item(String name, long weight, long value) {
+        this.name = name;
         this.weight = weight;
         this.value = value;
     }
 
-    // public int getId() {
-    //     return id;
-    // }
+    public String getName() {
+        return name;
+    }
 
     public long getWeight() {
         return weight;
