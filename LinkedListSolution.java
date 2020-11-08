@@ -4,28 +4,25 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class LinkedListImpl {
+public class LinkedListSolution {
     public static void main(String[] args) {
         String csvFile = "datasets/dataset_100.csv";
 
+        System.out.println("--------PROGRAM ANALYSIS--------");
         long limit = 100;
         LinkedList itemList = new LinkedList();
         long startTime = System.nanoTime();
 
+        Runtime runtime = Runtime.getRuntime();
+        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
+        System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
+    
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader(csvFile));
             String line = "";
             csvReader.readLine();
             while ((line = csvReader.readLine()) != null) {
                 String[] split = line.split(",");
-                // int[] data =
-                // Arrays.asList(split).stream().mapToInt(Integer::parseInt).toArray();
-
-                // if (Integer.parseInt(split[5]) != 0) {
-                // Item newItem = new Item(split[0], Integer.parseInt(split[1]),
-                // Integer.parseInt(split[5]));
-                // addCombi(itemList, newItem, limit);
-                // }
 
                 Item newItem = new Item(split[0], Integer.parseInt(split[1]), Integer.parseInt(split[2]));
                 addCombi(itemList, newItem, limit);
@@ -38,13 +35,19 @@ public class LinkedListImpl {
         }
 
         Node<Item> best = findBest(itemList);
-        long stopTime = System.nanoTime();
-        System.out.println("Time taken (mms): " + ((stopTime - startTime) / 1000000));
 
+        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
+        System.out.println("Memory usage after algorithm (bytes): " + usedMemoryAfter);
+        System.out.println("Memory used (bytes): " + (usedMemoryAfter-usedMemoryBefore));
+
+        long stopTime = System.nanoTime();
+        System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
+
+        System.out.println("\n\n--------PROGRAM RESULTS--------");
         long bestW = best.getItem().getWeight();
         long bestV = best.getItem().getValue();
 
-        System.out.println(best.getItem().getName());
+        System.out.println("Optimal combination: " + best.getItem().getName());
         System.out.println("Weight: " + bestW);
         System.out.println("Value: " + bestV);
     }
@@ -84,16 +87,11 @@ public class LinkedListImpl {
         Node<Item> walk = itemList.getHead();
         Node<Item> best = walk;
 
-        while (walk.getNext() != null) {
+        while (walk != null) {
             if (walk.getItem().getValue() > best.getItem().getValue()) {
                 best = walk;
             }
             walk = walk.getNext();
-        }
-
-        Node<Item> lastItem = walk;
-        if (lastItem.getItem().getValue() > best.getItem().getValue()) {
-            best = lastItem;
         }
 
         return best;
