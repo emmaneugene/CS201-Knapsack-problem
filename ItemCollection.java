@@ -5,6 +5,24 @@ public class ItemCollection {
     private long totalWeight;
     private long totalValue;
 
+    /**
+     * Empty constructor
+     */
+    public ItemCollection() {
+        items = new HashSet<>();
+        totalWeight = 0;
+        totalValue = 0;
+    }
+
+    /**
+     * Full-field constructor
+     */
+    public ItemCollection(HashSet<Item> items, long totalWeight, long totalValue) {
+        this.items = items;
+        this.totalWeight = totalWeight;
+        this.totalValue = totalValue;
+    }
+
     public HashSet<Item> getItemNames() { return items; }
 
     public long getTotalWeight() { return totalWeight; }
