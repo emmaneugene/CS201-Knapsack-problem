@@ -11,12 +11,13 @@ public class LinkedListSolution {
         System.out.println("--------PROGRAM ANALYSIS--------");
         long limit = 100;
         LinkedList itemList = new LinkedList();
+
         long startTime = System.nanoTime();
 
         Runtime runtime = Runtime.getRuntime();
         long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
         System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
-    
+
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader(csvFile));
             String line = "";
@@ -38,7 +39,7 @@ public class LinkedListSolution {
 
         long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
         System.out.println("Memory usage after algorithm (bytes): " + usedMemoryAfter);
-        System.out.println("Memory used (bytes): " + (usedMemoryAfter-usedMemoryBefore));
+        System.out.println("Memory used (bytes): " + (usedMemoryAfter - usedMemoryBefore));
 
         long stopTime = System.nanoTime();
         System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
@@ -53,33 +54,36 @@ public class LinkedListSolution {
     }
 
     private static void addCombi(LinkedList itemList, Item newItem, long limit) {
-        // add new item to the list
-        itemList.addLast(newItem);
-
         // Get weight and value of new item
-        // int newItemId = newItem.getId();
         long newItemW = newItem.getWeight();
         long newItemV = newItem.getValue();
 
-        // Walk through linked list
-        Node<Item> walk = itemList.getHead();
-        while (walk.getItem() != newItem) {
-            // Current item in the list
-            Item currItem = walk.getItem();
+        // Check if the new item's weight is within limit
+        if (newItemW <= limit) {
+            // add new item to the list
+            itemList.addLast(newItem);
 
-            // Get current weight and value of item in the list
-            String currItemN = currItem.getName();
-            long currItemW = currItem.getWeight();
-            long currItemV = currItem.getValue();
+            // Walk through linked list
+            Node<Item> walk = itemList.getHead();
 
-            // Check if the total weight of new Item and current item is lesser than limit,
-            // add to the combination to the list
-            if (limit >= currItemW + newItemW) {
-                Item toAdd = new Item(currItemN + ", " + newItem.getName(), currItemW + newItemW, currItemV + newItemV);
-                itemList.addLast(toAdd);
+            while (walk.getItem() != newItem) {
+                // Current item in the list
+                Item currItem = walk.getItem();
+
+                // Get current weight and value of item in the list
+                String currItemN = currItem.getName();
+                long currItemW = currItem.getWeight();
+                long currItemV = currItem.getValue();
+
+                // Check if the total weight of new Item and current item is lesser than limit,
+                // add to the combination to the list
+                if (limit >= currItemW + newItemW) {
+                    Item toAdd = new Item(currItemN + ", " + newItem.getName(), currItemW + newItemW,
+                            currItemV + newItemV);
+                    itemList.addLast(toAdd);
+                }
+                walk = walk.getNext();
             }
-
-            walk = walk.getNext();
         }
     }
 
