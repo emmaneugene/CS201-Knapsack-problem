@@ -23,7 +23,7 @@ public class ItemCollection {
         this.totalValue = totalValue;
     }
 
-    public HashSet<Item> getItemNames() { return items; }
+    public HashSet<Item> getItems() { return items; }
 
     public long getTotalWeight() { return totalWeight; }
 
