@@ -1,5 +1,4 @@
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class HashMapSolution {
@@ -67,9 +66,8 @@ public class HashMapSolution {
         items.sort(new ReverseWeightSorter());
 
         for (Item item : items) {
-            if (item.getValue() < limit) {
+            if (item.getWeight() < limit) {
                 HashMap<Long, Combination> tempHM = new HashMap<>();
-                System.out.println(hm.keySet().toString());
                 for (Long key : hm.keySet()) {
                     if (hm.get(key).getWeight() + item.getWeight() < limit) {
                         Combination tempCombination = hm.get(key);
