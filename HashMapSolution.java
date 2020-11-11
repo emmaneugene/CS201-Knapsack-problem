@@ -40,7 +40,7 @@ public class HashMapSolution {
         }
     }
 
-    public static long getTotalValue(ArrayList<Item> data) {
+    public static long getValue(ArrayList<Item> data) {
         long result = 0L;
         for (Item i : data) {
             result += i.getValue();
@@ -48,7 +48,17 @@ public class HashMapSolution {
         return result;
     }
 
+    public static long getWeight(ArrayList<Item> data) {
+        long result = 0L;
+        for (Item i : data) {
+            result += i.getWeight();
+        }
+        return result;
+    }
+
     public static HashMap<String, Long> map = new HashMap<>();
+
+    public static ArrayList<Integer> result = new ArrayList<>();
 
     public static long solution(int index, long weight, Long[] weights, Long[] values) {
         if (index < 0 || weight == 0) {
@@ -66,6 +76,7 @@ public class HashMapSolution {
                 long exclude = solution(index - 1, weight, weights, values);
                 if (include > exclude) {
                     map.put(key, include);
+                    result.add(index);
                 } else {
                     map.put(key, exclude);
                 }
@@ -86,64 +97,51 @@ public class HashMapSolution {
             dataMap.put(count, i);
         }
 
-        ArrayList<Integer> result = new ArrayList<>();
+        // ArrayList<Integer> result = new ArrayList<>();
         long weight = 7;
 
         long answer = solution(weights.size() - 1, weight, weights.toArray(new Long[weights.size()]),
                 values.toArray(new Long[values.size()]));
 
-        // System.out.println(answer);
-        System.out.println(map);
+        HashMap<Long, ArrayList<Item>> hm = new HashMap<>();
+        HashMap<Long, ArrayList<Item>> hm1 = new HashMap<>();
+        ArrayList<Item> newCollection;
 
-        // Step 1: find weight that corresponds to answer
-        long currWeight = 0L;
-        int tempIndex = 0;
-        long tempCurrWeight;
-        long tempAnswer;
-        for (String key : map.keySet()) {
-            if (map.get(key) == answer) {
-                tempIndex = (int) Long.parseLong(key.split(" --> ")[0]);
-                currWeight = (long) Long.parseLong(key.split(" --> ")[1]) - weights.get(tempIndex);
-                answer -= values.get(tempIndex);
-                break;
+        data.sort(new ReverseWeightSorter());
+        for (Item item : data) {
+            if (hm.get(item.getWeight()) == null && item.getWeight() < weight) {
+                hm.put(item.getWeight(), new ArrayList<Item>(List.of(item)));
             }
-        }
+            hm1 = new HashMap<Long, ArrayList<Item>>(hm);
+            for (long key : hm.keySet()) {
+                if (!hm.get(key).contains(item)) {
+                    // creating new collection by adding in the new item
+                    newCollection = hm.get(key);
+                    newCollection.add(item);
 
-        System.out.println(currWeight);
-        System.out.println(answer);
-
-        for (String key : map.keySet()) {
-            if (map.get(key) == answer) {
-                tempIndex = (int) Long.parseLong(key.split(" --> ")[0]);
-                tempCurrWeight = (long) Long.parseLong(key.split(" --> ")[1]);
-                tempAnswer = map.get(key);
-                System.out.println(values.get(tempIndex) + " must equals " + tempAnswer);
-                if (weights.get(tempIndex) == tempCurrWeight && values.get(tempIndex) == tempAnswer) {
-                    answer -= tempAnswer;
-                    currWeight -= tempCurrWeight;
-                    result.add((int) tempIndex);
+                    // calculating the new weight and value
+                    long newWeight = getWeight(newCollection);
+                    long newValue = getValue(newCollection);
+                    System.out.println(newWeight);
+                    System.out.println(newValue);
+                    // checking if the new weight fits the max weight
+                    if (newWeight <= weight) {
+                        // check if the new weight already exists
+                        // if not then just add
+                        // else add only if the value is greater than the prev one
+                        if (hm.get(newWeight) == null) {
+                            hm1.put(newWeight, newCollection);
+                        } else if (newValue > getValue(hm.get(newWeight))) {
+                            hm1.put(newWeight, newCollection);
+                        }
+                    }
                 }
             }
+            hm = hm1;
         }
-
-        // Step 2: while loop to find the others
-        // while (answer > 0 || currWeight > 0) {
-        // for (String key : map.keySet()) {
-        // long tempCurrWeight = Long.parseLong(key.split(" --> ")[1]);
-        // tempIndex = (int) Integer.parseInt(key.split(" --> ")[0]);
-        // if (values.get(tempIndex) == map.get(key) && weights.get(tempIndex) ==
-        // tempCurrWeight) {
-        // System.out.println(map.get(key) + " must equals " + values.get(tempIndex));
-        // System.out.println(tempCurrWeight + " must equals " +
-        // weights.get(tempIndex));
-        // answer -= values.get(tempIndex);
-        // currWeight -= weights.get(tempIndex);
-        // result.add(tempIndex);
-        // }
-        // }
-        // }
-
-        // Step 3: print the answer
-        System.out.println(result);
+        System.out.println(hm.keySet());
+        for (Item i : hm.get(7L)) {
+            System.out.println(i.getName());
+        }
     }
 }
