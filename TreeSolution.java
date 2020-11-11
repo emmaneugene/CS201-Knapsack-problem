@@ -65,7 +65,7 @@ public class TreeSolution {
         for (Item item : itemsWithinLimit) {
             long upperLimit = limit - item.getWeight() + 1;
             Collection<Combination> validCombinations = tree.subMap(Long.valueOf(0), upperLimit).values();
-
+            
             ArrayList<Combination> newCombinations = new ArrayList<>();
 
             for (Combination combination : validCombinations) {
@@ -95,9 +95,7 @@ public class TreeSolution {
     }
 
     public static Combination findBestCombination(TreeMap<Long, Combination> tree) {
-        if (tree.isEmpty()) return null;
-
-        Combination best = tree.firstEntry().getValue();
+        Combination best = new Combination();
         Iterable<Combination> combinations = tree.values();
         for (Combination combination : combinations) {
             if (combination.getValue() > best.getValue()
