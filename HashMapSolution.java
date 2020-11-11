@@ -2,30 +2,7 @@ import java.io.*;
 import java.lang.reflect.Array;
 import java.util.*;
 
-import javax.sql.rowset.spi.SyncFactory;
-
 public class HashMapSolution {
-    public static ArrayList<Item> readcsv() {
-        ArrayList<Item> result = new ArrayList<>();
-        BufferedReader csvReader;
-        String row;
-        try {
-            csvReader = new BufferedReader(new FileReader("./datasets/dataset_6.csv"));
-            String headerString = csvReader.readLine();
-            while ((row = csvReader.readLine()) != null) {
-                Item temp = new Item(row.split(",")[0], Long.parseLong(row.split(",")[1]),
-                        Long.parseLong(row.split(",")[2]));
-                result.add(temp);
-            }
-            csvReader.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        } catch (IOException ioe) {
-            System.out.println("ia ia ia");
-        }
-        return result;
-    }
-
     static class WeightSorter implements Comparator<Item> {
         @Override
         public int compare(Item i1, Item i2) {
@@ -40,21 +17,21 @@ public class HashMapSolution {
         }
     }
 
-    public static long getValue(ArrayList<Item> data) {
-        long result = 0L;
-        for (Item i : data) {
-            result += i.getValue();
-        }
-        return result;
-    }
+    // public static long getValue(Combination data) {
+    // long result = 0L;
+    // for (Item i : data) {
+    // result += i.getValue();
+    // }
+    // return result;
+    // }
 
-    public static long getWeight(ArrayList<Item> data) {
-        long result = 0L;
-        for (Item i : data) {
-            result += i.getWeight();
-        }
-        return result;
-    }
+    // public static long getWeight(Combination data) {
+    // long result = 0L;
+    // for (Item i : data) {
+    // result += i.getWeight();
+    // }
+    // return result;
+    // }
 
     public static HashMap<String, Long> map = new HashMap<>();
 
@@ -85,63 +62,89 @@ public class HashMapSolution {
         }
     }
 
-    public static void main(String[] args) {
-        ArrayList<Item> data = readcsv();
-        ArrayList<Long> weights = new ArrayList<>();
-        ArrayList<Long> values = new ArrayList<>();
-        HashMap<Integer, Item> dataMap = new HashMap<>();
-        int count = 0;
-        for (Item i : data) {
-            weights.add(i.getWeight());
-            values.add(i.getValue());
-            dataMap.put(count, i);
-        }
+    public static Combination knapsackSolve(List<Item> items, long limit) {
+        HashMap<Long, Combination> hm = new HashMap<>();
+        // items.sort(new ReverseWeightSorter());
 
-        // ArrayList<Integer> result = new ArrayList<>();
-        long weight = 7;
-
-        long answer = solution(weights.size() - 1, weight, weights.toArray(new Long[weights.size()]),
-                values.toArray(new Long[values.size()]));
-
-        HashMap<Long, ArrayList<Item>> hm = new HashMap<>();
-        HashMap<Long, ArrayList<Item>> hm1 = new HashMap<>();
-        ArrayList<Item> newCollection;
-
-        data.sort(new ReverseWeightSorter());
-        for (Item item : data) {
-            if (hm.get(item.getWeight()) == null && item.getWeight() < weight) {
-                hm.put(item.getWeight(), new ArrayList<Item>(List.of(item)));
-            }
-            hm1 = new HashMap<Long, ArrayList<Item>>(hm);
-            for (long key : hm.keySet()) {
-                if (!hm.get(key).contains(item)) {
-                    // creating new collection by adding in the new item
-                    newCollection = hm.get(key);
-                    newCollection.add(item);
-
-                    // calculating the new weight and value
-                    long newWeight = getWeight(newCollection);
-                    long newValue = getValue(newCollection);
-                    System.out.println(newWeight);
-                    System.out.println(newValue);
-                    // checking if the new weight fits the max weight
-                    if (newWeight <= weight) {
-                        // check if the new weight already exists
-                        // if not then just add
-                        // else add only if the value is greater than the prev one
-                        if (hm.get(newWeight) == null) {
-                            hm1.put(newWeight, newCollection);
-                        } else if (newValue > getValue(hm.get(newWeight))) {
-                            hm1.put(newWeight, newCollection);
-                        }
-                    }
+        for (Item item : items) {
+            HashMap<Long, Combination> tempHM = new HashMap<>();
+            System.out.println(hm.keySet().toString());
+            for (Long key : hm.keySet()) {
+                if (hm.get(key).getWeight() + item.getWeight() < limit) {
+                    Combination tempCombination = hm.get(key);
+                    tempCombination.add(item);
+                    tempHM.put(key + item.getWeight(), tempCombination);
                 }
             }
-            hm = hm1;
+            for (Long key : tempHM.keySet()) {
+                if ((!hm.containsKey(key))
+                        || (hm.containsKey(key) && hm.get(key).getValue() < tempHM.get(key).getValue())) {
+                    hm.put(key, tempHM.get(key));
+                }
+
+            }
+            Combination tempCombination = new Combination();
+            tempCombination.add(item);
+            Long newKey = tempCombination.getWeight();
+            Long newValue = tempCombination.getValue();
+            if ((!hm.containsKey(newKey)) || (hm.containsKey(newKey) && hm.get(newKey).getValue() < newValue)) {
+                hm.put(newKey, tempCombination);
+            }
         }
-        System.out.println(hm.keySet());
-        for (Item i : hm.get(7L)) {
-            System.out.println(i.getName());
+
+        return (Combination) hm.values().toArray()[1];
+    }
+
+    public static void main(String[] args) {
+        // Get user input
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a file path: ");
+        // String csvFile = sc.next();
+        String csvFile = "/Users/shrmnl/Github/CS201-G1T2/datasets/test_1.csv";
+        // System.out.print("Enter weight limit: ");
+        // long limit = sc.nextLong();
+        long limit = 170L;
+
+        // Read file data
+        ArrayList<Item> items = new ArrayList<>();
+        try {
+            BufferedReader csvReader = new BufferedReader(new FileReader(csvFile));
+            String line = "";
+            csvReader.readLine();
+            while ((line = csvReader.readLine()) != null) {
+                String[] components = line.split(",");
+
+                Item newItem = new Item(components[0], Integer.parseInt(components[1]),
+                        Integer.parseInt(components[2]));
+                items.add(newItem);
+            }
+            csvReader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+        // Initialise measurement variables
+        long startTime = System.nanoTime();
+        Runtime runtime = Runtime.getRuntime();
+        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
+
+        // Insert algorithm here
+        Combination best = knapsackSolve(items, limit);
+
+        // End measurement
+        long stopTime = System.nanoTime();
+        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
+
+        // Results and diagnostics
+        System.out.println("--------PROGRAM RESULTS--------");
+        System.out.println("Best combination: " + best.getItems());
+        System.out.println("Weight: " + best.getWeight());
+        System.out.println("Value: " + best.getValue());
+
+        System.out.println("\n\n--------PROGRAM ANALYSIS--------");
+        System.out.println("Memory usage before algorithm (KB): " + usedMemoryBefore / 1000);
+        System.out.println("Memory usage after algorithm (KB): " + usedMemoryAfter / 1000);
+        System.out.println("Memory used (KB): " + (usedMemoryAfter - usedMemoryBefore) / 1000);
+        System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
     }
 }
