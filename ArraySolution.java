@@ -61,40 +61,42 @@ public class ArraySolution {
         }
         
         Combination[] combinations = new Combination[(int)limit + 1];
+        for (int i = 0; i <= limit; i++) {
+            combinations[i] = new Combination();
+        }
         
         for(Item item : itemsWithinLimit) {        
             Combination[] newCombinations = cloneArray(combinations);
-            for(int w = 0; w <= limit - item.getWeight(); w++) {
-                if (combinations[w] != null) {
-                    Combination newCombination = clone(combinations[w]);
-                    newCombination.add(item);
-                    addCombination(newCombination, newCombinations);
-                }
+            int upperWeightLimit = (int)(limit - item.getWeight());
+            for(int w = 0; w <= upperWeightLimit; w++) {
+                Combination newCombination = clone(combinations[w]);
+                newCombination.add(item);
+                addCombination(newCombination, newCombinations);
             }
+            // Add a combination of the item on its own
             Combination newCombination = new Combination();
             addCombination(newCombination, newCombinations);
             combinations = newCombinations;
         }
+
         return findBestCombination(combinations);
     }
 
     private static void addCombination(Combination combination, Combination[] combinations) {
         int idx = (int)combination.getWeight();
-        if (combinations[idx] == null
-            || combinations[idx].getValue() < combination.getValue());
+        if (combinations[idx].getValue() < combination.getValue());
             combinations[idx] = combination;
     }
 
     private static Combination[] cloneArray(Combination[] combinations) {
         int len = combinations.length;
-        Combination[] clone = new Combination[len];
+        Combination[] clonedArray = new Combination[len];
 
         for (int i = 0; i < len; i++) {
-            if (combinations[i] != null)
-                clone[i] = clone(combinations[i]);
+            clonedArray[i] = clone(combinations[i]);
         }
 
-        return clone;
+        return clonedArray;
     }
 
     public static Combination clone(Combination combination) {
@@ -110,8 +112,10 @@ public class ArraySolution {
         Combination best = new Combination();
 
         for (int i = 0; i < len; i++) {
-            if (combinations[i] != null && combinations[i].getValue() > best.getValue())
+            if (combinations[i].getValue() > best.getValue()
+                || (combinations[i].getValue() == best.getValue() && combinations[i].getWeight() < best.getWeight()))
                 best = combinations[i];
+            
         }
         return best;
     }
