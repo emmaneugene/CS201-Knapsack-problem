@@ -3,19 +3,12 @@ import java.io.*;
 
 public class TreeSolution {
     public static void main(String[] args) {
-
         // Get user input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a file path: ");
         String csvFile = sc.next();
         System.out.print("Enter weight limit: ");
         long limit = sc.nextLong();
-
-        // Initialise measurement variables
-        long startTime = System.nanoTime();
-        Runtime runtime = Runtime.getRuntime();
-        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
-    
 
         // Read file data
         ArrayList<Item> items = new ArrayList<>();
@@ -34,8 +27,17 @@ public class TreeSolution {
             e.printStackTrace();
         }
 
+        // Initialise measurement variables
+        long startTime = System.nanoTime();
+        Runtime runtime = Runtime.getRuntime();
+        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
+
         // Insert algorithm here
         Combination best = knapsackSolve(items, limit);
+
+        // End measurement
+        long stopTime = System.nanoTime();
+        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
 
         // Results and diagnostics
         System.out.println("--------PROGRAM RESULTS--------");
@@ -44,12 +46,9 @@ public class TreeSolution {
         System.out.println("Value: " + best.getValue());
     
         System.out.println("\n\n--------PROGRAM ANALYSIS--------");
-        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
-        System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
-        System.out.println("Memory usage after algorithm (bytes): " + usedMemoryAfter);
-        System.out.println("Memory used (bytes): " + (usedMemoryAfter-usedMemoryBefore));
-
-        long stopTime = System.nanoTime();
+        System.out.println("Memory usage before algorithm (KB): " + usedMemoryBefore / 1000);
+        System.out.println("Memory usage after algorithm (KB): " + usedMemoryAfter / 1000);
+        System.out.println("Memory used (KB): " + (usedMemoryAfter-usedMemoryBefore) / 1000);
         System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
     }
 
