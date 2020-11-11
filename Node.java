@@ -1,21 +1,21 @@
-public class Node<Item> {
-    private Item item;
-    private Node<Item> next;
+public class Node<Combination> {
+    private Combination combi;
+    private Node<Combination> next;
 
-    public Node(Item item, Node<Item> next) {
-        this.item = item;
+    public Node(Combination combi, Node<Combination> next) {
+        this.combi = combi;
         this.next = next;
     }
 
-    public Item getItem() {
-        return this.item;
+    public Combination getCombi() {
+        return this.combi;
     }
 
-    public Node<Item> getNext() {
+    public Node<Combination> getNext() {
         return this.next;
     }
 
-    public void setNext(Node<Item> next) {
+    public void setNext(Node<Combination> next) {
         this.next = next;
     }
 }

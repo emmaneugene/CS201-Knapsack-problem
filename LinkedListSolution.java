@@ -1,103 +1,128 @@
 import java.util.*;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 
 public class LinkedListSolution {
     public static void main(String[] args) {
-        String csvFile = "datasets/dataset_100.csv";
+        // Get user input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a file path: ");
+        String csvFile = sc.next();
+        System.out.print("Enter weight limit: ");
+        long limit = sc.nextLong();
 
-        System.out.println("--------PROGRAM ANALYSIS--------");
-        long limit = 100;
-        LinkedList itemList = new LinkedList();
-
-        long startTime = System.nanoTime();
-
-        Runtime runtime = Runtime.getRuntime();
-        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
-        System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
-
+        // Read file data
+        ArrayList<Item> items = new ArrayList<>();
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader(csvFile));
             String line = "";
             csvReader.readLine();
             while ((line = csvReader.readLine()) != null) {
-                String[] split = line.split(",");
+                String[] components = line.split(",");
 
-                Item newItem = new Item(split[0], Integer.parseInt(split[1]), Integer.parseInt(split[2]));
-                addCombi(itemList, newItem, limit);
+                Item newItem = new Item(components[0], Integer.parseInt(components[1]),
+                        Integer.parseInt(components[2]));
+                items.add(newItem);
             }
             csvReader.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
-        Node<Item> best = findBest(itemList);
+        // Initialise measurement variables
+        long startTime = System.nanoTime();
+        Runtime runtime = Runtime.getRuntime();
+        long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
 
-        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
-        System.out.println("Memory usage after algorithm (bytes): " + usedMemoryAfter);
-        System.out.println("Memory used (bytes): " + (usedMemoryAfter - usedMemoryBefore));
+        // Insert algorithm here
+        Combination best = knapsackSolve(items, limit);
 
+        // End measurement
         long stopTime = System.nanoTime();
+        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
+
+        // Results and diagnostics
+        System.out.println("--------PROGRAM RESULTS--------");
+        System.out.println("Best combination: " + best.getItems());
+        System.out.println("Weight: " + best.getWeight());
+        System.out.println("Value: " + best.getValue());
+
+        System.out.println("\n\n--------PROGRAM ANALYSIS--------");
+        System.out.println("Memory usage before algorithm (KB): " + usedMemoryBefore / 1000);
+        System.out.println("Memory usage after algorithm (KB): " + usedMemoryAfter / 1000);
+        System.out.println("Memory used (KB): " + (usedMemoryAfter - usedMemoryBefore) / 1000);
         System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
+    }
 
-        System.out.println("\n\n--------PROGRAM RESULTS--------");
-        long bestW = best.getItem().getWeight();
-        long bestV = best.getItem().getValue();
+    public static Combination knapsackSolve(List<Item> items, long limit) {
+        // Get items within limit
+        ArrayList<Item> itemsWithinLimit = new ArrayList<>();
+        for (Item item : items) {
+            if (item.getWeight() <= limit) {
+                itemsWithinLimit.add(item);
+            }
+        }
 
-        System.out.println("Optimal combination: " + best.getItem().getName());
-        System.out.println("Weight: " + bestW);
-        System.out.println("Value: " + bestV);
+        // Add items that are within limits into Linked List algorithm
+        LinkedList linkedList = new LinkedList();
+        for (Item item : itemsWithinLimit) {
+            addCombi(linkedList, item, limit);
+        }
+
+        //
+        return findBest(linkedList);
     }
 
     private static void addCombi(LinkedList itemList, Item newItem, long limit) {
-        // Get weight and value of new item
+        // Get weight of new item
         long newItemW = newItem.getWeight();
-        long newItemV = newItem.getValue();
 
-        // Check if the new item's weight is within limit
-        if (newItemW <= limit) {
-            // add new item to the list
-            itemList.addLast(newItem);
+        // add new item to the list
+        Combination newCombi = new Combination();
+        newCombi.add(newItem);
+        itemList.addLast(newCombi);
 
-            // Walk through linked list
-            Node<Item> walk = itemList.getHead();
+        // Walk through linked list
+        Node<Combination> walk = itemList.getHead();
 
-            while (walk.getItem() != newItem) {
-                // Current item in the list
-                Item currItem = walk.getItem();
+        while (walk.getCombi() != newCombi) {
+            // Current item in the list
+            Combination currCombi = walk.getCombi();
 
-                // Get current weight and value of item in the list
-                String currItemN = currItem.getName();
-                long currItemW = currItem.getWeight();
-                long currItemV = currItem.getValue();
+            // Get current weight of item in the list
+            long currCombiW = currCombi.getWeight();
 
-                // Check if the total weight of new Item and current item is lesser than limit,
-                // add to the combination to the list
-                if (limit >= currItemW + newItemW) {
-                    Item toAdd = new Item(currItemN + ", " + newItem.getName(), currItemW + newItemW,
-                            currItemV + newItemV);
-                    itemList.addLast(toAdd);
-                }
-                walk = walk.getNext();
+            // Check if the total weight of new Item and current item is lesser than limit,
+            // add to the combination to the list
+            if (limit >= currCombiW + newItemW) {
+                Combination toAdd = clone(currCombi);
+                toAdd.add(newItem);
+                itemList.addLast(toAdd);
             }
+            walk = walk.getNext();
         }
     }
 
-    private static Node<Item> findBest(LinkedList itemList) {
-        Node<Item> walk = itemList.getHead();
-        Node<Item> best = walk;
+    // Cloning of combination
+    public static Combination clone(Combination combination) {
+        Combination clone = new Combination();
+        for (Item item : combination.getItems())
+            clone.add(item);
+        
+        return clone;
+    }
+
+    // Find the best result in the Linked List
+    private static Combination findBest(LinkedList linkedList) {
+        Node<Combination> walk = linkedList.getHead();
+        Node<Combination> best = walk;
 
         while (walk != null) {
-            if (walk.getItem().getValue() > best.getItem().getValue()) {
+            if (walk.getCombi().getValue() > best.getCombi().getValue()) {
                 best = walk;
             }
             walk = walk.getNext();
         }
-
-        return best;
+        return best.getCombi();
     }
 }
