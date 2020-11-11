@@ -67,28 +67,30 @@ public class HashMapSolution {
         items.sort(new ReverseWeightSorter());
 
         for (Item item : items) {
-            HashMap<Long, Combination> tempHM = new HashMap<>();
-            System.out.println(hm.keySet().toString());
-            for (Long key : hm.keySet()) {
-                if (hm.get(key).getWeight() + item.getWeight() < limit) {
-                    Combination tempCombination = hm.get(key);
-                    tempCombination.add(item);
-                    tempHM.put(key + item.getWeight(), tempCombination);
+            if (item.getValue() < limit) {
+                HashMap<Long, Combination> tempHM = new HashMap<>();
+                System.out.println(hm.keySet().toString());
+                for (Long key : hm.keySet()) {
+                    if (hm.get(key).getWeight() + item.getWeight() < limit) {
+                        Combination tempCombination = hm.get(key);
+                        tempCombination.add(item);
+                        tempHM.put(key + item.getWeight(), tempCombination);
+                    }
                 }
-            }
-            for (Long key : tempHM.keySet()) {
-                if ((!hm.containsKey(key))
-                        || (hm.containsKey(key) && hm.get(key).getValue() < tempHM.get(key).getValue())) {
-                    hm.put(key, tempHM.get(key));
+                for (Long key : tempHM.keySet()) {
+                    if ((!hm.containsKey(key))
+                            || (hm.containsKey(key) && hm.get(key).getValue() < tempHM.get(key).getValue())) {
+                        hm.put(key, tempHM.get(key));
+                    }
+    
                 }
-
-            }
-            Combination tempCombination = new Combination();
-            tempCombination.add(item);
-            Long newKey = tempCombination.getWeight();
-            Long newValue = tempCombination.getValue();
-            if ((!hm.containsKey(newKey)) || (hm.containsKey(newKey) && hm.get(newKey).getValue() < newValue)) {
-                hm.put(newKey, tempCombination);
+                Combination tempCombination = new Combination();
+                tempCombination.add(item);
+                Long newKey = tempCombination.getWeight();
+                Long newValue = tempCombination.getValue();
+                if ((!hm.containsKey(newKey)) || (hm.containsKey(newKey) && hm.get(newKey).getValue() < newValue)) {
+                    hm.put(newKey, tempCombination);
+                }
             }
         }
 
@@ -106,13 +108,13 @@ public class HashMapSolution {
 
     public static void main(String[] args) {
         // Get user input
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter a file path: ");
-        // String csvFile = sc.next();
-        String csvFile = "/Users/shrmnl/Github/CS201-G1T2/datasets/test_1.csv";
-        // System.out.print("Enter weight limit: ");
-        // long limit = sc.nextLong();
-        long limit = 170L;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a file path: ");
+        String csvFile = sc.next();
+        // String csvFile = "/Users/shrmnl/Github/CS201-G1T2/datasets/dataset_real_world.csv";
+        System.out.print("Enter weight limit: ");
+        long limit = sc.nextLong();
+        // long limit = 200L;
 
         // Read file data
         ArrayList<Item> items = new ArrayList<>();
