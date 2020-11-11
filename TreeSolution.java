@@ -4,20 +4,20 @@ import java.io.*;
 public class TreeSolution {
     public static void main(String[] args) {
 
+        // Get user input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a file path: ");
         String csvFile = sc.next();
         System.out.print("Enter weight limit: ");
         long limit = sc.nextLong();
 
-        System.out.println("--------PROGRAM ANALYSIS--------");
+        // Initialise measurement variables
         long startTime = System.nanoTime();
-
         Runtime runtime = Runtime.getRuntime();
         long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
-        System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
+    
 
-        // Read file data and generate a list of items
+        // Read file data
         ArrayList<Item> items = new ArrayList<>();
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader(csvFile));
@@ -29,17 +29,23 @@ public class TreeSolution {
                 Item newItem = new Item(components[0], Integer.parseInt(components[1]), Integer.parseInt(components[2]));
                 items.add(newItem);
             }
+            csvReader.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         // Insert algorithm here
-        ItemCollection best = knapsackSolve(items, limit);
-        System.out.println("Best combination: " + best.getItems());
-        System.out.println("Weight: " + best.getTotalWeight());
-        System.out.println("Value: " + best.getTotalValue());
+        Combination best = knapsackSolve(items, limit);
 
+        // Results and diagnostics
+        System.out.println("--------PROGRAM RESULTS--------");
+        System.out.println("Best combination: " + best.getItems());
+        System.out.println("Weight: " + best.getWeight());
+        System.out.println("Value: " + best.getValue());
+    
+        System.out.println("\n\n--------PROGRAM ANALYSIS--------");
         long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
+        System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
         System.out.println("Memory usage after algorithm (bytes): " + usedMemoryAfter);
         System.out.println("Memory used (bytes): " + (usedMemoryAfter-usedMemoryBefore));
 
@@ -47,7 +53,7 @@ public class TreeSolution {
         System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
     }
 
-    public static ItemCollection knapsackSolve(List<Item> items, long limit) {
+    public static Combination knapsackSolve(List<Item> items, long limit) {
         ArrayList<Item> itemsWithinLimit = new ArrayList<>();
         for (Item item : items) {
             if (item.getWeight() <= limit) {
@@ -55,63 +61,60 @@ public class TreeSolution {
             }
         }
 
-        TreeMap<Long, ItemCollection> tree = new TreeMap<>();
+        TreeMap<Long, Combination> tree = new TreeMap<>();
 
         for (Item item : itemsWithinLimit) {
-            Collection<ItemCollection> validCollections = tree.subMap(Long.valueOf(0), limit - item.getWeight()).values();
+            long upperLimit = limit - item.getWeight() + 1;
+            Collection<Combination> validCombinations = tree.subMap(Long.valueOf(0), upperLimit).values();
 
-            ArrayList<ItemCollection> newCollections = new ArrayList<>();
+            ArrayList<Combination> newCombinations = new ArrayList<>();
 
-            for (ItemCollection collection : validCollections) {
-                ItemCollection newCollection = clone(collection);
-                newCollection.addItem(item);
-                newCollections.add(newCollection);
+            for (Combination combination : validCombinations) {
+                Combination newCombination = clone(combination);
+                newCombination.add(item);
+                newCombinations.add(newCombination);
             }  
 
             // Add the item by itself  
-            ItemCollection newCollection = new ItemCollection();
-            newCollection.addItem(item);
-            newCollections.add(newCollection);
+            Combination newCollection = new Combination();
+            newCollection.add(item);
+            newCombinations.add(newCollection);
 
-            for (ItemCollection toAdd : newCollections) {
-                addCollectionToTree(toAdd, tree);
+            for (Combination toAdd : newCombinations) {
+                addCombinationToTree(toAdd, tree);
             }
-
-            
-            addCollectionToTree(newCollection, tree);
         }
 
-        return findBestCollection(tree);
+        return findBestCombination(tree);
     }
 
-    public static void addCollectionToTree(ItemCollection collection, TreeMap<Long, ItemCollection> tree) {
-        Long key = collection.getTotalWeight();
-        if (tree.containsKey(key) && tree.get(key).getTotalValue() < collection.getTotalValue()) {
-            tree.put(key, collection);
-        } else {
-            tree.put(key, collection);
-        }
+    public static void addCombinationToTree(Combination combination, TreeMap<Long, Combination> tree) {
+        Long key = combination.getWeight();
+        if (!tree.containsKey(key)
+            || (tree.containsKey(key) && tree.get(key).getValue() < combination.getValue())) 
+            tree.put(key, combination); 
     }
 
-    public static ItemCollection findBestCollection(TreeMap<Long, ItemCollection> tree) {
+    public static Combination findBestCombination(TreeMap<Long, Combination> tree) {
         if (tree.isEmpty()) return null;
 
-        ItemCollection best = tree.firstEntry().getValue();
-        Iterable<ItemCollection> collections = tree.values();
-        for (ItemCollection collection : collections) {
-            if (collection.getTotalValue() > best.getTotalValue())
-                best = collection;
+        Combination best = tree.firstEntry().getValue();
+        Iterable<Combination> combinations = tree.values();
+        for (Combination combination : combinations) {
+            if (combination.getValue() > best.getValue()
+                || (combination.getValue() == best.getValue() && combination.getWeight() < best.getWeight()))
+                best = combination;
+            
         }
 
         return best;
     }
 
-    public static ItemCollection clone(ItemCollection collection) {
-        ItemCollection clone = new ItemCollection();
+    public static Combination clone(Combination combination) {
+        Combination clone = new Combination();
+        for (Item item : combination.getItems())
+            clone.add(item);
         
-        for (Item item : collection.getItems())
-            clone.addItem(item);
-
         return clone;
     }
 }
