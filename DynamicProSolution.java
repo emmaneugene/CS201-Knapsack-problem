@@ -6,17 +6,22 @@ import java.io.IOException;
 
 public class DynamicProSolution {
     public static void main(String[] args) {
-        String csvFile = "datasets/dataset_100.csv";
+        // Get user input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a file path: ");
+        String csvFile = sc.next();
+        System.out.print("Enter weight limit: ");
+        long limit = sc.nextLong();
 
-        System.out.println("--------PROGRAM ANALYSIS--------");
+        // Initialise measurement variables
         long startTime = System.nanoTime();
         Runtime runtime = Runtime.getRuntime();
         long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
-        System.out.println("Memory usage before algorithm (bytes): " + usedMemoryBefore);
     
-        long limit = 100;
+        // Read file data
+        // ArrayList<Item> items = new ArrayList<>();    
         //store all the items read from the file to itemList
-        HashMap<Integer, Item> itemList = new HashMap<Integer, Item>();     
+        HashMap<Integer, Item> itemList = new HashMap<Integer, Item>();    
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader(csvFile));
             String line = "";
@@ -30,24 +35,26 @@ public class DynamicProSolution {
                 id++;
             }
             csvReader.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
         //get the most optimal combination and print it
         HashMap<Integer, Item> bestCombin = Matrix(itemList, itemList.size(), limit);
-        printBestCombin(bestCombin);
-
-        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
-        System.out.println("Memory usage after algorithm (bytes): " + usedMemoryAfter);
-        System.out.println("Memory used (bytes): " + (usedMemoryAfter-usedMemoryBefore));
-
+        
+        // End measurements
         long stopTime = System.nanoTime();
-        System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
+        long usedMemoryAfter = runtime.totalMemory() - runtime.freeMemory();
 
-        System.out.println("\n\n--------PROGRAM RESULTS--------");
+        // Results and diagnostics
+        System.out.println("--------PROGRAM RESULTS--------");
+        printBestCombin(bestCombin);
+    
+        System.out.println("--------PROGRAM ANALYSIS--------");
+        System.out.println("Memory usage before algorithm (KB): " + usedMemoryBefore / 1000);
+        System.out.println("Memory usage after algorithm (KB): " + usedMemoryAfter / 1000);
+        System.out.println("Memory used (KB): " + (usedMemoryAfter-usedMemoryBefore) / 1000);
+        System.out.println("Time taken (milliseconds): " + ((stopTime - startTime) / 1000000));
         
     }
 
@@ -99,7 +106,7 @@ public class DynamicProSolution {
     private static void printBestCombin(HashMap<Integer, Item> bestCombin) {
         long bestW = 0;
         long bestV = 0;
-        System.out.print("\nOptimal Combination: ");
+        System.out.print("\nBest Combination: ");
         int i = 1;
         for(Integer item : bestCombin.keySet()){
             if(i < bestCombin.size())
@@ -110,7 +117,7 @@ public class DynamicProSolution {
             bestW += bestCombin.get(item).getWeight();
             bestV += bestCombin.get(item).getValue();
         }
-        System.out.print("\nBest Weight: " + bestW);
-        System.out.println("\nBest Value: " + bestV + "\n");
+        System.out.print("\nWeight: " + bestW);
+        System.out.println("\nValue: " + bestV + "\n");
     }
 }
