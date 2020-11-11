@@ -1,6 +1,6 @@
 public class LinkedList {
-    Node<Item> head = null;
-    Node<Item> tail = null;
+    Node<Combination> head = null;
+    Node<Combination> tail = null;
     int size = 0;
 
     public LinkedList() {
@@ -14,34 +14,34 @@ public class LinkedList {
         return size == 0;
     }
 
-    public Node<Item> getHead() {
+    public Node<Combination> getHead() {
         return head;
     }
 
-    public Item first() {
+    public Combination first() {
         if (isEmpty()) {
             return null;
         }
-        return head.getItem();
+        return head.getCombi();
     }
 
-    public Item last() {
+    public Combination last() {
         if (isEmpty()) {
             return null;
         }
-        return tail.getItem();
+        return tail.getCombi();
     }
 
-    public void addFirst(Item item) {
-        head = new Node<Item>(item, null);
+    public void addFirst(Combination combi) {
+        head = new Node<Combination>(combi, null);
         if (isEmpty()) {
             tail = head;
         }
         size++;
     }
 
-    public void addLast(Item item) {
-        Node<Item> newest = new Node<Item>(item, null);
+    public void addLast(Combination combi) {
+        Node<Combination> newest = new Node<Combination>(combi, null);
         if (isEmpty()) {
             head = newest;
         } else {
@@ -51,11 +51,11 @@ public class LinkedList {
         size++;
     }
 
-    public Item removeFirst() {
+    public Combination removeFirst() {
         if (isEmpty()) {
             return null;
         }
-        Item answer = head.getItem();
+        Combination answer = head.getCombi();
         head = head.getNext();
         size--;
         if (size == 0) {
@@ -64,16 +64,16 @@ public class LinkedList {
         return answer;
     }
 
-    public Item removeLast() {
+    public Combination removeLast() {
         if (isEmpty()) {
             return null;
         }
-        Item answer = tail.getItem();
+        Combination answer = tail.getCombi();
         if (head == tail) {
             head = null;
             tail = null;
         } else {
-            Node<Item> walk = head;
+            Node<Combination> walk = head;
             while (walk.getNext() != tail) {
                 walk.getNext();
             }
@@ -82,20 +82,5 @@ public class LinkedList {
         }
         size--;
         return answer;
-    }
-
-    public String toString() {
-        StringBuilder sb = new StringBuilder("(");
-        Node<Item> walk = head;
-        while (walk != null) {
-            sb.append(walk.getItem().getWeight());
-            sb.append(" ");
-            sb.append(walk.getItem().getValue());
-            if (walk != tail)
-                sb.append(", ");
-            walk = walk.getNext();
-        }
-        sb.append(")");
-        return sb.toString();
     }
 }
