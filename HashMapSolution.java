@@ -64,7 +64,7 @@ public class HashMapSolution {
 
     public static Combination knapsackSolve(List<Item> items, long limit) {
         HashMap<Long, Combination> hm = new HashMap<>();
-        // items.sort(new ReverseWeightSorter());
+        items.sort(new ReverseWeightSorter());
 
         for (Item item : items) {
             HashMap<Long, Combination> tempHM = new HashMap<>();
@@ -92,7 +92,16 @@ public class HashMapSolution {
             }
         }
 
-        return (Combination) hm.values().toArray()[1];
+        Combination result = new Combination();
+        Long highestValue = 0L;
+        for (Combination combi : hm.values()) {
+            if (combi.getValue() > highestValue) {
+                highestValue = combi.getValue();
+                result = combi;
+            }
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
