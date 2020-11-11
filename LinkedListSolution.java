@@ -114,6 +114,10 @@ public class LinkedListSolution {
 
     // Find the best result in the Linked List
     private static Combination findBest(LinkedList linkedList) {
+        if (linkedList.size() == 0) {
+            return new Combination();
+        }
+        
         Node<Combination> walk = linkedList.getHead();
         Node<Combination> best = walk;
 
