@@ -17,11 +17,11 @@ linked lists, hash maps and balanced search trees.
 
 ## Getting Started
 
-Java 13 must be installed on your local machine in order to run the programs
+Java 13 must be installed on your local machine in order to run the programs.
 
 ## Usage
 
-Compile and run individual program files using the data structure you wish to test:
+Compile and run individual program files using the data structure you wish to test.
 
 **Example:**
 
@@ -29,12 +29,12 @@ Compile and run individual program files using the data structure you wish to te
 
 `java src/ArraySolution`
 
-When prompted to enter a data path, you may specify any file in the `/datasets` directory
+When prompted to enter a data path, you may specify any file in the `/datasets` directory.
 
 `Enter a file path: datasets/dataset_6.csv`
 
-Enter the weight limit desired
+Enter the weight limit desired.
 
 `Enter weight limit: 10`
 
-The program should then solve for and print out the optimal combination, as well as program diagnostics
+The program should then solve for and print out the optimal combination, as well as program diagnostics.
