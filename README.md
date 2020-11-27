@@ -25,9 +25,9 @@ Compile and run individual program files using the data structure you wish to te
 
 **Example:**
 
-`javac ArraySolution.java`
+`javac -d src -cp src src/ArraySolution.java`
 
-`java ArraySolution`
+`java src/ArraySolution`
 
 When prompted to enter a data path, you may specify any file in the `/datasets` directory
 
