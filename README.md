@@ -37,4 +37,4 @@ Enter the weight limit desired.
 
 `Enter weight limit: 10`
 
-The program should then solve for and print out the optimal combination, as well as program diagnostics.
+The program should then solve for and print out the optimal combination, as well as provide program diagnostics.
